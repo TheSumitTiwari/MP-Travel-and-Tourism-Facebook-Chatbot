@@ -1,0 +1,3889 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Hay",
+        "Hii",
+        "Hiii"
+      ],
+      "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks for the help"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're most welcome!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": ["Who are you?", "What are you?", "Who you are?"],
+      "responses": [
+        "I am chappy your bot assistant , and i can help you with your travel and tour within Madhya Pradesh.",
+        "I'm chappy, an Artificial Intelligent bot  and i can help you with your travel and tour within madhya pradesh."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "whats your name?"
+      ],
+      "responses": [
+        "You can call me chappy",
+        "I'm chappy!",
+        "Just call me as chappy"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Could you help me?",
+        "give me a hand please",
+        "Can you help?",
+        "What can you do for me?",
+        "I need a support",
+        "I need a help",
+        "support me please"
+      ],
+      "responses": [
+        "Tell me how can assist you",
+        "Tell me your problem to assist you",
+        "Yes Sure, How can I support you"
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "have a complaint",
+        "I want to raise a complaint",
+        "there is a complaint about a service"
+      ],
+      "responses": [
+        "Please provide us your complaint in order to assist you",
+        "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+      ]
+    },
+
+    {
+      "tag": "Railwaystation_bh",
+      "patterns": [
+        "How many railway stations in Bhopal?",
+        "Number of railway stations in Bhopal",
+        "Which are the railway stations in bhopal?"
+      ],
+      "responses": [
+        "There are 4 railway stations in Bhopal 01 Bhopal Junction 02 Sant HridaramNagar 03 Habibganj railway station ",
+        "These are the Railway Stations in Bhopal 01 Main Station 02 Sant HridaramNagar 03 Bairagarh 04 Habibganj"
+      ]
+    },
+    {
+      "tag": "BhopalJunction",
+      "patterns": [
+        "Location of Bhopal Junction",
+        "How to reach Bhopal Junction?",
+        "Where is Bhopal Junction?",
+        "How can I reach to Bhopal Junction?"
+      ],
+      "responses": [
+        "Pal Tower, Hamidia Rd, Bhopal Talkies, Bajariya, Navbahar Colony, Bhopal, Madhya Pradesh 462001"
+      ]
+    },
+    {
+      "tag": "SantHridaramNagar",
+      "patterns": [
+        "Location of Sant HridaramNagar station",
+        "How to reach Sant HridaramNagar railway station?",
+        "Where is Sant HridaramNagar railway station?",
+        "How can I reach to Sant HridaramNagar railway station?"
+      ],
+      "responses": [
+        "Block A, Hemu Kalani, Bairagarh, Bhopal, Madhya Pradesh 462030"
+      ]
+    },
+    {
+      "tag": "Habibganj",
+      "patterns": [
+        "Location of Habibganj railway station ",
+        "Where is Rani kamlapati railway station",
+        "How to reach Habibganj railway station?",
+        "Where is Habibganj railway station",
+        "How can I reach to Habibganj railway station"
+      ],
+      "responses": [
+        "Habibganj Pedestrian Opas, Zone-II, Habib Ganj, Bhopal, Madhya Pradesh 462023"
+      ]
+    },
+
+    {
+      "tag": "Airport_bh",
+      "patterns": [
+        "What is the name of airport in Bhopal",
+        "Can you please tell me name of Bhopal airport?"
+      ],
+      "responses": [
+        "Raja Bhoj Airport",
+        "Bhopal Airport, also called Raja Bhoj Airport"
+      ]
+    },
+    {
+      "tag": "RajaBhojAirport",
+      "patterns": [
+        "Location of Raja Bhoj Airport",
+        "How to reach Raja Bhoj Airport?",
+        "Where is Raja Bhoj Airport in Bhopal?",
+        "How can I reach to Sant HridaramNagar?"
+      ],
+      "responses": [
+        "Block A, Hemu Kalani, Bairagarh, Bhopal, Madhya Pradesh 462030"
+      ]
+    },
+
+    {
+      "tag": "BusStand_bh",
+      "patterns": [
+        "How many Bus Stands in Bhopal?",
+        "Number of Bus Stands Bhopal",
+        "Which are the Bus Stands in bhopal?"
+      ],
+      "responses": [
+        "There are 6 Bus Stands in Bhopal 01 Bhopal Bus Stand 02 Bhopal Habibganj Isbt Bus Stand  03 Nadra Bus Stand 04 Chartered Bus Stand 05 Bairagarh Bus Stand 06 Halalpur Bus Stand ",
+        "These are the Bus stands in Bhopal 01 Bhopal Bus Stand 02 Bhopal Habibganj- Isbt Bus Stand  03 Nadra Bus Stand 04 Chartered Bus 05 Bairagarh Bus Stand 06 Halalpur Bus Stand "
+      ]
+    },
+    {
+      "tag": "BhopalBusStand",
+      "patterns": [
+        "Location of Bhopal Bus Stand",
+        "How to reach Bhopal Bus Stand?",
+        "Where is Bhopal Bus Stand",
+        "How can I reach to Bhopal Bus Stand?"
+      ],
+      "responses": [" Railway Colony, Bhopal, Madhya Pradesh 462001 "]
+    },
+    {
+      "tag": "IsbtBusStand",
+      "patterns": [
+        "Location of Bhopal Habibganj Isbt Bus Stand",
+        "How to reach Bhopal Habibganj- Isbt Bus Stand ?",
+        "Where is Bhopal Habibganj Isbt Bus Stand ?",
+        "How can I reach to Bhopal Habibganj Isbt Bus Stand?"
+      ],
+      "responses": ["Bairagarh, Bhopal, Madhya Pradesh 462030 "]
+    },
+    {
+      "tag": "NadraBusStand",
+      "patterns": [
+        "Location of Nadra Bus Stand",
+        "How to reach Nadra Bus Stand?",
+        "Where is Nadra Bus Stand?",
+        "How can I reach to Nadra Bus Stand?"
+      ],
+      "responses": [
+        "Chola Road, Railway Colony, Bhopal, Madhya Pradesh 462001 "
+      ]
+    },
+    {
+      "tag": "CharteredBusStand",
+      "patterns": [
+        "Location of Chartered Bus Stand in bhopal",
+        "How to reach Chartered Bus Stand in bhopal?",
+        "Where is Chartered Bus Stand in bhopal?",
+        "How can I reach to Chartered Bus Stand in bhopal?"
+      ],
+      "responses": [
+        "Bus Stop, ISBT, Habib Ganj, Bhopal, Madhya Pradesh 462023 "
+      ]
+    },
+    {
+      "tag": "BairagarhBusStand ",
+      "patterns": [
+        "Location of Bairagarh Bus Stand ",
+        "How to reach Bairagarh Bus Stand ?",
+        "Where is Bairagarh Bus Stand  ?",
+        "How can I reach to Bairagarh Bus Stand ?"
+      ],
+      "responses": [
+        "Block A, Hemu Kalani, Bairagarh, Bhopal, Madhya Pradesh 462030 "
+      ]
+    },
+    {
+      "tag": " HalalpurBusStand",
+      "patterns": [
+        "Location of  Halalpur Bus Stand ",
+        "How to reach  Halalpur Bus Stand ?",
+        "Where is  Halalpur Bus Stand?",
+        "How can I reach to  Halalpur Bus Stand?"
+      ],
+      "responses": ["Halalpura, Khargone, Bhopal, Madhya Pradesh 462030 "]
+    },
+
+    {
+      "tag": "Malls_bh",
+      "patterns": [
+        "How many malls are there in Bhopal?",
+        "which malls can i visite in Bhopal",
+        "Which are some good malls in bhopal?",
+        "where can i can go for shopping?"
+      ],
+      "responses": [
+        "These are some famous malls in Bhopal 01 DB city mall 02 Aashima Anupama Mall 03 People’s mall 04 Capital Mall",
+        "These are some malls in bhopal where you can go for shopping 01 DB city mall 02 Aashima Anupama Mall 03 People’s mall 04 Capital Mall"
+      ]
+    },
+    {
+      "tag": "DBMall",
+      "patterns": [
+        "Location of DB city mall",
+        "Location of DB mall",
+        "How to reach DB mall?",
+        "Where is DB mall?",
+        "How can I reach to DB mall?"
+      ],
+      "responses": [
+        "Zone-I, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462016"
+      ]
+    },
+    {
+      "tag": "AashimaAnupamaMall",
+      "patterns": [
+        "Location of Aashima Anupama Mall",
+        "Location of Ashmia mall",
+        "How to reach Aashima Anupama Mall?",
+        "Where is Aashima Anupama Mall?",
+        "How can I reach to Aashima Anupama Mall?"
+      ],
+      "responses": [
+        "Hoshangabad Rd, Danish Nagar, Bawaria Kalan, Bhopal, Madhya Pradesh 462026"
+      ]
+    },
+    {
+      "tag": "CapitalMall",
+      "patterns": [
+        "Location of Capital Mall",
+        "Location of C21 mall",
+        "How to reach Capital Mall?",
+        "Where is Capital Mall?",
+        "How can I reach to Capital Mall?"
+      ],
+      "responses": ["Peoples Campus, Bhanpur, Bhopal, Madhya Pradesh 462037"]
+    },
+    {
+      "tag": "PeoplesMall",
+      "patterns": [
+        "Location of People’s mall",
+        "Location of Peoples mall",
+        "How to reach People’s mall?",
+        "Where is People’s mall?",
+        "How can I reach to People’s mall?"
+      ],
+      "responses": ["Peoples Campus, Bhanpur, Bhopal, Madhya Pradesh 462037"]
+    },
+
+    {
+      "tag": "Touristplaces_bh",
+      "patterns": [
+        "Which are some good places to visit in Bhopal?",
+        "Tourist places in bhopal",
+        "Where can I visit in Bhopal?"
+      ],
+      "responses": [
+        "There are several places to visit in Bhopal like Museums,Temples,Mosques,National parks, Historical Places, Amusement parks, Where you want to go? ",
+        "You can visit on several places like Museums,Temples,Mosques,National parks, Historical Places, Amusement parks, Where you want to visit?"
+      ]
+    },
+
+    {
+      "tag": "Museum_bh",
+      "patterns": [
+        "Museums in Bhopal",
+        "how many Museums are there in bhopal?",
+        "Names of all the Museums in bhopal?",
+        "What are the famous Museums in bhopal?",
+        "List of all the  Museums in bhopal?"
+      ],
+      "responses": [
+        "There are some famous Museums in bhopal 01 Bharat Bhawan 02 Madhya Pradesh Tribal Museum 03 Indira Gandhi Rashtriya Manav Sangrahalaya 04 Regional Science Center",
+        "These are some famous meseums in Bhopal 01 Bharat Bhawan 02 Madhya Pradesh Tribal Museum 03 Indira Gandhi Rashtriya Manav Sangrahalaya 04 Regional Science Center"
+      ]
+    },
+    {
+      "tag": "BharatBhawan_about",
+      "patterns": [
+        "Bharat Bhawan",
+        "About Bharat Bhawan",
+        "Tell me something about Bharat Bhawan",
+        "What is Bharat Bhawan?",
+        "Description of Bharat Bhawan"
+      ],
+      "responses": [
+        "Bharat Bhavan is an autonomous multi-arts complex and museum in Bhopal, India, established and funded by the Government of Madhya Pradesh."
+      ]
+    },
+    {
+      "tag": "BharatBhawan_address",
+      "patterns": [
+        "Location of Bharat Bhawan ",
+        "How to reach Bharat Bhawan ?",
+        "Where is Bharat Bhawan?",
+        "How can I reach to  Bharat Bhawan?"
+      ],
+      "responses": [
+        "Bharat Bhawan Rd, Near Upper Lake, Krishna Nagar, Shymala Hills, Bhopal, Madhya Pradesh 462013"
+      ]
+    },
+    {
+      "tag": "MPTMuseum_about",
+      "patterns": [
+        "Madhya Pradesh Tribal Museum",
+        "About Madhya Pradesh Tribal Museum",
+        "Tell me something about Madhya Pradesh Tribal Museum",
+        "What is Madhya Pradesh Tribal Museum?",
+        "Description of Madhya Pradesh Tribal Museum"
+      ],
+      "responses": [
+        "Museum with a collection of tribal clothing, crafts & tools, plus a space for events & performances."
+      ]
+    },
+    {
+      "tag": "MPTMuseum_address",
+      "patterns": [
+        "Location of Madhya Pradesh Tribal Museum",
+        "How to reach Madhya Pradesh Tribal Museum?",
+        "Where is Madhya Pradesh Tribal Museum?",
+        "How can I reach to Madhya Pradesh Tribal Museum?"
+      ],
+      "responses": [
+        "Shyamla Hills Rd, near State Museum, Shymala Hills, Bhopal, Madhya Pradesh 462002"
+      ]
+    },
+    {
+      "tag": "IGRMS_about",
+      "patterns": [
+        "Indira Gandhi Rashtriya Manav Sangrahalaya",
+        "About Indira Gandhi Rashtriya Manav Sangrahalaya ",
+        "Tell me something about Indira Gandhi Rashtriya Manav Sangrahalaya ",
+        "What is Indira Gandhi Rashtriya Manav Sangrahalaya ?",
+        "Description of Indira Gandhi Rashtriya Manav Sangrahalaya"
+      ],
+      "responses": [
+        "Indira Gandhi Rashtriya Manav Sangrahalaya or National Museum of Humankind or Museum of Man is an anthropology museum located in Bhopal, India, to present an integrated story of the evolution of man and culture with special reference to India."
+      ]
+    },
+    {
+      "tag": "IGRMS_address",
+      "patterns": [
+        "Location of Indira Gandhi Rashtriya Manav Sangrahalaya",
+        "How to reach Indira Gandhi Rashtriya Manav Sangrahalaya?",
+        "Where is Indira Gandhi Rashtriya Manav Sangrahalaya?",
+        "How can I reach to Indira Gandhi Rashtriya Manav Sangrahalaya ?"
+      ],
+      "responses": [
+        " Lake View Road, next to RCE campus, Shymala Hills, Bhopal, Madhya Pradesh 462013"
+      ]
+    },
+    {
+      "tag": "RSC_about",
+      "patterns": [
+        "Regional Science Center",
+        "About Regional Science Center",
+        "Tell me something about Regional Science Center",
+        "What is Regional Science Center?",
+        "Description of Regional Science Center"
+      ],
+      "responses": [
+        "The Regional Science Centre, Bhopal is located in the Shyamla Hills area of Bhopal, India. It is aimed at popularizing science and technology among the people, particularly the students. It is one of the constituent units of the National Council of Science Museums or NCSM"
+      ]
+    },
+    {
+      "tag": "RSC_address",
+      "patterns": [
+        "Location of Regional Science Center",
+        "How to reach Regional Science Center?",
+        "Where is Regional Science Center?",
+        "How can I reach to Regional Science Center?"
+      ],
+      "responses": [
+        "Nr School Of Drama, Banganga Rd, Banganga Slums, North TT Nagar, Shymala Hills, Bhopal, Madhya Pradesh 462002"
+      ]
+    },
+
+    {
+      "tag": "Temples_bh",
+      "patterns": [
+        "Temples in Bhopal",
+        "how many Temples are there in bhopal?",
+        "Names of all the Temples in bhopal?",
+        "What are the famous Temples in bhopal?",
+        "List of all the Temples in bhopal?"
+      ],
+      "responses": [
+        "There are some famous Temples in bhopal 01 Birla Mandir 02 Iskcon Bhopal 03 Gufa Mandir 04 Jain Temple ",
+        "These are some famous Temples in Bhopal 01 Birla Mandir 02 Iskcon Bhopal 03 Gufa Mandir 04 Jain Temple "
+      ]
+    },
+
+    {
+      "tag": "BirlaMandir_about",
+      "patterns": [
+        "Birla Mandir",
+        "About Birla Mandir",
+        "Tell me something about Birla Mandir",
+        "What is Birla Mandir?",
+        "Description of Birla Mandir"
+      ],
+      "responses": [
+        "The temple is more commonly known as Birla Mandir. It's an awe-inspiring spectacle that showcases a panoramic view of the historic city of Bhopal."
+      ]
+    },
+    {
+      "tag": "BirlaMandir_address",
+      "patterns": [
+        "Location of Birla Mandir",
+        "How to reach Birla Mandir?",
+        "Where is Birla Mandir?",
+        "How can I reach to Birla Mandir"
+      ],
+      "responses": ["6CQ5+8C4, Arera Hills, Bhopal, Madhya Pradesh 462011"]
+    },
+
+    {
+      "tag": "IskconTemple_about",
+      "patterns": [
+        "Iskcon Temple Bhopal",
+        "About Iskcon Temple Bhopal",
+        "Tell me something about Iskcon Bhopal",
+        "What is Iskcon Bhopal?",
+        "Description of Iskcon Bhopal"
+      ],
+      "responses": [
+        "A temple dedicated to Radha Rani and lord Shri Krishna handled by monks and a must visit place for darshan and achieving mental peace"
+      ]
+    },
+    {
+      "tag": "IskconTemple_address",
+      "patterns": [
+        "Location of Iskcon Bhopal",
+        "How to reach Iskcon Bhopal?",
+        "Where is Iskcon Bhopal?",
+        "How can I reach to Iskcon Bhopal"
+      ],
+      "responses": [
+        "Hare Krishna Land, Raisen Rd, near NRI College, Patel Nagar, Bhopal, Madhya Pradesh 462022"
+      ]
+    },
+    {
+      "tag": "GufaMandir_about",
+      "patterns": [
+        "Gufa Mandir",
+        "About Gufa Mandir",
+        "Tell me something about Gufa Mandir",
+        "What is Gufa Mandir?",
+        "Description of Gufa Mandir"
+      ],
+      "responses": [
+        "Shri Ramanandashram Gufa Mandir or the Cave Temple is one of the top tourist attractions in Bhopal and is located in Lalghati"
+      ]
+    },
+    {
+      "tag": "GufaMandir_address",
+      "patterns": [
+        "Location of Gufa Mandir",
+        "How to reach Gufa Mandir?",
+        "Where is Gufa Mandir?",
+        "How can I reach to Gufa Mandir"
+      ],
+      "responses": ["Nayapura, Lalghati, Bhopal, Madhya Pradesh 462001"]
+    },
+    {
+      "tag": "ManuabhanTekri_about",
+      "patterns": [
+        "Manuabhan Tekri",
+        "About Manuabhan Tekri",
+        "Tell me something about Manuabhan Tekri",
+        "What is Manuabhan Tekri?",
+        "Description of Manuabhan Tekri"
+      ],
+      "responses": [
+        "Manua bhan ki Tekari Bhopal is one of the very famous Jain Temple in the Bhopal and has started Conveyor & Rope way Service"
+      ]
+    },
+    {
+      "tag": "ManuabhanTekri_address",
+      "patterns": [
+        "Location of Manuabhan Tekri",
+        "How to reach Manuabhan Tekri?",
+        "Where is Manuabhan Tekri?",
+        "How can I reach to Manuabhan Tekri"
+      ],
+      "responses": ["Sun City, Lalghati, Bhopal, Madhya Pradesh 462038"]
+    },
+
+    {
+      "tag": "Mosque_bh",
+      "patterns": [
+        "Mosque in Bhopal",
+        "how many Mosque are there in bhopal?",
+        "Names of all the Mosque in bhopal?",
+        "What are the famous Mosque in bhopal?",
+        "List of all the Mosque in bhopal?"
+      ],
+      "responses": [
+        "There are some famous Mosque in bhopal 01 Moti Masjid 02 Taj Ul Masajid",
+        "These are some famous Mosque in Bhopal 01 Moti Masjid 02 Taj Ul Masajid"
+      ]
+    },
+    {
+      "tag": "TajUlMasajid_about",
+      "patterns": [
+        "Taj Ul Masajid",
+        "About Taj Ul Masajid",
+        "Tell me something about Taj Ul Masajid",
+        "What is Taj Ul Masajid?",
+        "Description of Taj Ul Masajid"
+      ],
+      "responses": [
+        "Taj-ul-Masajid is a mosque situated in Bhopal, India.It is the largest mosque in India and one of the largest mosques in Asia's."
+      ]
+    },
+    {
+      "tag": "TajUlMasajid_address",
+      "patterns": [
+        "Location of Taj Ul Masajid",
+        "How to reach Taj Ul Masajid?",
+        "Where is Taj Ul Masajid?",
+        "How can I reach to Taj Ul Masajid"
+      ],
+      "responses": ["NH 12, Kohefiza, Bhopal, Madhya Pradesh 462001"]
+    },
+    {
+      "tag": "MotiMasjid_about",
+      "patterns": [
+        "Moti Masjid",
+        "About Moti Masjid in bhopal",
+        "Tell me something about Moti Masjid in bhopal",
+        "What is Moti Masjid in bhopal?",
+        "Description of Moti Masjid in bhopal"
+      ],
+      "responses": [
+        "Moti Masjid is one of the most visited Islamic religious structure in Bhopal and is visited by thousand of Muslim devotees for offering daily namaz. The heart touching architecture of Pearl Mosque has given it a special place in history of Bhopal and India."
+      ]
+    },
+    {
+      "tag": "MotiMasjid_address",
+      "patterns": [
+        "Location of Moti Masjid in bhopal",
+        "How to reach Moti Masjid in bhopal?",
+        "Where is Moti Masjid in bhopal?",
+        "How can I reach to Moti Masjid in bhopal"
+      ],
+      "responses": [
+        "Hawamahal Rd, Opposite Moti Masjid, Chowki Talaiya, Talaiya, Bhopal, Madhya Pradesh 462001"
+      ]
+    },
+
+    {
+      "tag": "NationalPark_bh",
+      "patterns": [
+        "National Park in Bhopal",
+        "how many National Parks are there in bhopal?",
+        "Is there any National Park in bhopal?",
+        "Names of all the National Park in bhopal?",
+        "What are the famous National Park in bhopal?",
+        "List of all National Park in bhopal?"
+      ],
+      "responses": [
+        "There is only one National Park in Bhopal i.e.. Van Vihar National Park",
+        "Yes,there is only one National Park in Bhopal named Van Vihar National Park"
+      ]
+    },
+    {
+      "tag": "VanVihar_about",
+      "patterns": [
+        "Van Vihar",
+        "About  Van Vihar National Park",
+        "Tell me something about Van Vihar National Park",
+        "What is Van Vihar National Park?",
+        "Description of Van Vihar National Park"
+      ],
+      "responses": [
+        "Van Vihar National Park and Zoo is one of the most revered National Park and Zoo of Central India and is a shining beacon in the field of conservation. It is an amazing world of winged creatures, free ranging ungulates and captive carnivores in the midst of greenery."
+      ]
+    },
+    {
+      "tag": "VanVihar_address",
+      "patterns": [
+        "Location of Van Vihar National Park",
+        "How to reach  Van Vihar National Park?",
+        "Where is Van Vihar National Park?",
+        "How can I reach to Van Vihar National Park"
+      ],
+      "responses": [
+        "Lake View Walk Path, Krishna Nagar, Shymala Hills, Bhopal, Madhya Pradesh 462002"
+      ]
+    },
+
+    {
+      "tag": "Historicalplaces_bh",
+      "patterns": [
+        "Historical Places in Bhopal",
+        "how many Historical Places are there in bhopal?",
+        "Name of all the Historical Places in bhopal?",
+        "What are the famous Historical Places in bhopal?",
+        "List of all the  Historical Places in bhopal?"
+      ],
+      "responses": [
+        "There are some famous Historical Places in bhopal 01 Gauhar Mahal 02 Shaurya Smarak 03 Udaigiri Caves 04 Shaukat Mahal 05 Rani Kamlapati Mahal   ",
+        "These are some famous Historical Places in Bhopal 01 Gauhar Mahal 02 Shaurya Smarak 03 Udaigiri Caves 04 Shaukat Mahal 05 Rani Kamlapati Mahal  "
+      ]
+    },
+    {
+      "tag": "GauharMahal_about",
+      "patterns": [
+        "Gauhar Mahal",
+        "About Gauhar Mahal in Bhopal",
+        "Tell me something about  Gauhar Mahal in Bhopal",
+        "What is  Gauhar Mahal in Bhopal?",
+        "Description of Gauhar Mahal in Bhopal"
+      ],
+      "responses": [
+        "A unique amalgamation of Hindu and Mughal architecture, Gohar Mahal was built by Qudisiya Begum or Gohar Begum, the ruler of Bhopal."
+      ]
+    },
+    {
+      "tag": "GauharMahal_address",
+      "patterns": [
+        "Location of Gauhar Mahal in Bhopal",
+        "How to reach Gauhar Mahal in Bhopal?",
+        "Where is Gauhar Mahal in Bhopal?",
+        "How can I reach to Gauhar Mahal in Bhopal"
+      ],
+      "responses": [
+        "VIP Road, Chowki Talaiya, Peer Gate Area, Bhopal, Madhya Pradesh 462001"
+      ]
+    },
+    {
+      "tag": "ShauryaSmarak_about",
+      "patterns": [
+        "Shaurya Smarak",
+        "About Shaurya Smarak in Bhopal",
+        "Tell me something about Shaurya Smarak in Bhopal",
+        "What is Shaurya Smarak in Bhopal?",
+        "Description of Shaurya Smarak in Bhopal"
+      ],
+      "responses": [
+        "Shaurya Smarak is a war memorial situated at Bhopal, inaugurated by the Prime Minister of India Narendra Modi on 14 October 2016."
+      ]
+    },
+    {
+      "tag": "ShauryaSmarak_address",
+      "patterns": [
+        "Location of Shaurya Smarak in Bhopal",
+        "How to reach Shaurya Smarak  in Bhopal?",
+        "Where is Shaurya Smarak in Bhopal?",
+        "How can I reach to Shaurya Smarak in Bhopal"
+      ],
+      "responses": [
+        "Arera Hills, Opposite Courtyard Marriott, M P Nagar, Bhim Nagar Slums, Arera Hills, Bhopal, Madhya Pradesh 462016"
+      ]
+    },
+    {
+      "tag": "UdaigiriCaves_about",
+      "patterns": [
+        "Udaigiri Caves",
+        "About Udaigiri Caves in Bhopal",
+        "Tell me something about Udaigiri Caves in Bhopal",
+        "What is Udaigiri Caves in Bhopal?",
+        "Description of Udaigiri Caves in Bhopal"
+      ],
+      "responses": [
+        "The Udayagiri Caves are twenty rock-cut caves near Vidisha, Madhya Pradesh from the early years of the 5th century CE. They contain some of the oldest surviving Hindu temples and iconography in India. They are the only site that can be verifiably associated with a Gupta period monarch from its inscriptions."
+      ]
+    },
+    {
+      "tag": "UdaigiriCaves_address",
+      "patterns": [
+        "Location of Udaigiri Caves in Bhopal",
+        "How to reach Udaigiri Caves in Bhopal?",
+        "Where is Udaigiri Caves in Bhopal?",
+        "How can I reach to Udaigiri Caves in Bhopal"
+      ],
+      "responses": ["GQPC+GV4, Udaigiri, Madhya Pradesh 464001"]
+    },
+    {
+      "tag": "ShaukatMahal_about",
+      "patterns": [
+        "Shaukat Mahal",
+        "About Shaukat Mahal",
+        "Tell me something about Shaukat Mahal in Bhopal",
+        "What is Shaukat Mahal in Bhopal?",
+        "Description of Shaukat Mahal in Bhopal"
+      ],
+      "responses": [
+        "The seat of the Nawab of Bhopal, built around 1830 this large palace is an architectural jewel."
+      ]
+    },
+    {
+      "tag": "ShaukatMahal_address",
+      "patterns": [
+        "Location of Shaukat Mahal in Bhopal",
+        "How to reach Shaukat Mahal in Bhopal?",
+        "Where is Shaukat Mahal in Bhopal?",
+        "How can I reach to Shaukat Mahal in Bhopal"
+      ],
+      "responses": [
+        "Sultania Rd, Nakkar Khana, Peer Gate Area, Bhopal, Madhya Pradesh 462001"
+      ]
+    },
+
+    {
+      "tag": "RaniKamlapatiMahal_about",
+      "patterns": [
+        "Rani Kamlapati Mahal",
+        "About Rani Kamlapati Mahal",
+        "Tell me something about Rani Kamlapati Mahal",
+        "What is Rani Kamlapati Mahal in Bhopal?",
+        "Description of Rani Kamlapati Mahal in Bhopal"
+      ],
+      "responses": [
+        "Kamalapati Palace is located on the bridge, between the larger and the smaller lake of Bhopal. Built in 1722, it is named after Rani Kamlapati the widow Gond ruler of Nizam Shah, Chief of Ginnorgarh. The Palace has been designated as a Monument of National Importance by the Archaeological Survey of India."
+      ]
+    },
+    {
+      "tag": "RaniKamlapatiMahal_address",
+      "patterns": [
+        "Location of Rani Kamlapati Mahal",
+        "How to reach Rani Kamlapati Mahal in Bhopal?",
+        "Where is Rani Kamlapati Mahal?",
+        "How can I reach to Rani Kamlapati Mahal"
+      ],
+      "responses": [
+        "Kamla Park Rd, Professors Colony, Bhopal, Madhya Pradesh 462001"
+      ]
+    },
+
+    {
+      "tag": "AmusementParks_bh",
+      "patterns": [
+        "Amusement Parks in Bhopal",
+        "how many Amusement Parks are there in bhopal?",
+        "Name of all the Amusement Parks in bhopal?",
+        "What are the famous Amusement Parks  in bhopal?",
+        "List of all the Amusement Parks in bhopal?"
+      ],
+      "responses": [
+        "There are some famous Amusement Parks in bhopal 01 Kanha Fun City  02 Crescent Water Park",
+        "These are some famous Amusement Parks in Bhopal 01 Kanha Fun City  02 Crescent Water Park  "
+      ]
+    },
+    {
+      "tag": "KanhaFunCity_about",
+      "patterns": [
+        "Kanha Fun City",
+        "About Kanha Fun City in Bhopal",
+        "Tell me something about Kanha Fun City in Bhopal",
+        "What is Kanha Fun City in Bhopal?",
+        "Description of Kanha Fun City in Bhopal"
+      ],
+      "responses": [
+        "It's a nice place, a famous place in City of lakes Bhopal Madhya Pradesh, this place is for fun with family, it's for childrens for couples and for friends too, nice view …"
+      ]
+    },
+    {
+      "tag": "KanhaFunCity_address",
+      "patterns": [
+        "Location of Kanha Fun City in Bhopal",
+        "How to reach Kanha Fun City in Bhopal?",
+        "Where is Kanha Fun City in Bhopal?",
+        "How can I reach to Kanha Fun City in Bhopal"
+      ],
+      "responses": [
+        "Hoshangabad Rd, Indus Towne, Ratanpur Sadak, Bhopal, Madhya Pradesh 462047"
+      ]
+    },
+    {
+      "tag": "CrescentWaterPark_about",
+      "patterns": [
+        "Crescent Water Park",
+        "About Kanha Crescent Water Park in Bhopal",
+        "Tell me something about Crescent Water Park in Bhopal",
+        "What is Crescent Water Park?",
+        "Description of Crescent Water Park"
+      ],
+      "responses": [
+        "Crescent Water Park, one of India's finest family water park, is located just 15 minutes from Indore city, we feature the largest variety of attractions in Central India.Crescent Water park has more family tube rides than any other park in Malwa zone. Thrill rides are in abundance. Plenty of picnic areas are available, from covered pavilions (cabanas) to beautifully landscaped grass areas."
+      ]
+    },
+    {
+      "tag": "CrescentWaterPark_address",
+      "patterns": [
+        "Location of Crescent Water Park in Bhopal",
+        "How to reach Crescent Water Park in Bhopal?",
+        "Where is Crescent Water Park in Bhopal?",
+        "How can I reach to Crescent Water Park in Bhopal"
+      ],
+      "responses": [
+        "Gram Jamniya, Near Narmada Kshipra Devguradia Khurd, Kampel Rd, Indore, Madhya Pradesh 452016"
+      ]
+    },
+
+    {
+      "tag": "market_Bhopal",
+      "patterns": [
+        "what are the places to shop in bhopal?",
+        "what are the market places to visit in the bhopal?",
+        "what are good local markets in bhopal?",
+        "where to buy local stuffs in bhopal? "
+      ],
+      "responses": [
+        "There are 6 best palces to do shopping in Bhopal 01 New Market 02 Chowk Bazar 03 10 No. Market 04 Bairagarh 05 Bittan Market 06 Barkheda Market "
+      ]
+    },
+    {
+      "tag": "newMarket",
+      "patterns": [
+        "where is new market in Bhopal?",
+        "how can I reach new market in Bhopal?",
+        "Address of new market in Bhopal?",
+        "Location of new market in Bhopal?",
+        "how to reach new market in Bhopal?"
+      ],
+      "responses": [
+        "Address of new market bhopal is - Roshan Pura Square, 45 Bunglows, Roshanpura, TT Nagar, Bhopal, Madhya Pradesh 462003"
+      ]
+    },
+    {
+      "tag": "chowkbazar",
+      "patterns": [
+        "where is chowk bazar in Bhopal?",
+        "how can I reach chowk bazar in Bhopal?",
+        "Address of chowk bazar in Bhopal?",
+        "Location of chowk bazar  in Bhopal?",
+        "how to reach chowk bazar in Bhopal?"
+      ],
+      "responses": [
+        "Address of chowk bazar bhopal is - Old City, Peer Gate Area, Bhopal, Madhya Pradesh 462001"
+      ]
+    },
+    {
+      "tag": "10nobazar",
+      "patterns": [
+        "where is 10 no. market in Bhopal?",
+        "how can I reach 10 no. market in Bhopal?",
+        "Address of 10 no. market in Bhopal?",
+        "Location of 10 no. market in Bhopal?",
+        "how to reach 10 no. market in Bhopal?"
+      ],
+      "responses": [
+        "Address of 10 no. market bhopal is - 10 No. Market, E-4, Arera Colony, Bhopal, Madhya Pradesh 462016"
+      ]
+    },
+    {
+      "tag": "Bairagarh",
+      "patterns": [
+        "where is Bairagarh?",
+        "how can I reach Bairagarh?",
+        "Address of Bairagarh?",
+        "Location of Bairagarh?",
+        "how to reach Bairagarh?"
+      ],
+      "responses": ["Address of Bairagarh bhopal is - BAIRAGARH 462030"]
+    },
+    {
+      "tag": "BittanMarket",
+      "patterns": [
+        "where is Bittan Market in Bhopal?",
+        "how can I reach Bittan Market in Bhopal?",
+        "Address of Bittan Market in Bhopalin Bhopal?",
+        "Location of Bittan Market in Bhopal?",
+        "how to reach Bittan Market in Bhopal?"
+      ],
+      "responses": [
+        "Address of Bittan Market bhopal is - 6C8G+MQX, Opposite Habibganj Police Station, Board Colony, Char Imli, Bhopal, Madhya Pradesh 462016"
+      ]
+    },
+    {
+      "tag": "BarkhedaMarket",
+      "patterns": [
+        "where is Barkheda Market in Bhopal?",
+        "how can I reach Barkheda Market in Bhopal?",
+        "Address of Barkheda Market in Bhopal?",
+        "Location of Barkheda Market in Bhopal?",
+        "how to reach Barkheda Market in Bhopal?"
+      ],
+      "responses": [
+        "Address of Barkheda Market bhopal is - Eastern Rd of BHEL, Vijay Market, BHEL, Sector A, Berkheda, Bhopal, Madhya Pradesh 462022"
+      ]
+    },
+
+    {
+      "tag": "damsnlakes",
+      "patterns": [
+        "what are the places to hangout near water in bhopal?",
+        "what are places to have an asthetic view from water in bhopal?",
+        "where can I watch sunset amd sunrise in bhopal? "
+      ],
+      "responses": [
+        "There are few dams and lakes in bhopal. Some of them are LAKES-> 01 Upper lake 02 Lower lake 03 Shahpura lake DAMS-> 01 Kaliyasot 02 Kerwa 03 Hatai kheda 04 Kolar 05 Halali dam 06 Bhadbada "
+      ]
+    },
+    {
+      "tag": "lakes_bhopal",
+      "patterns": [
+        "how many lakes are there in bhopal?",
+        "Names of all the lakes in bhopal?",
+        "What are the famous lakes in bhopal?",
+        "List of all the lakes in bhopal?"
+      ],
+      "responses": [
+        "There are mainly 3 lakes in bhopal - 01 Upper Lake 02 Lower Lake 03 Shahpura Lake"
+      ]
+    },
+    {
+      "tag": "lowerlake_about",
+      "patterns": [
+        "Lower Lake in Bhopal",
+        "About Lower Lake in Bhopal",
+        "Tell me something about Lower Lake in Bhopal",
+        "What is Lower Lake in Bhopal?",
+        "Description of Lower Lake in Bhopal"
+      ],
+      "responses": [
+        "The Lower Lake or Chhota Talaab is a lake in Bhopal, the capital of Madhya Pradesh state of India. Along with the Upper Lake, it forms the Bhoj Wetland."
+      ]
+    },
+    {
+      "tag": "lowerlake_address",
+      "patterns": [
+        "where is lower lake in Bhopal?",
+        "how can I reach lower lake in Bhopal?",
+        "Address of lower lake in Bhopal?",
+        "Location of lower lake in Bhopal?",
+        "how to reach lower lake in Bhopal?"
+      ],
+      "responses": [
+        " The address of lower lake is - Lower Lake, Jahangirabad, Bhopal, Madhya Pradesh, India"
+      ]
+    },
+    {
+      "tag": "upperlake_about",
+      "patterns": [
+        "Upper Lake",
+        "About Upper Lake in Bhopal",
+        "Tell me something about Upper Lake in Bhopal",
+        "What is Upper Lake in Bhopal?",
+        "Description of Upper Lake in Bhopal"
+      ],
+      "responses": [
+        "Bhojtal, formerly known as Upper Lake, is a large lake which lies on the western side of the capital city of Madhya Pradesh, Bhopal, India."
+      ]
+    },
+    {
+      "tag": "upperlake_address",
+      "patterns": [
+        "where is upperlake in Bhopal?",
+        "how can I reach upperlake in Bhopal?",
+        "Address of upperlake in Bhopal?",
+        "Location of bhojtal?",
+        "how to reach upperlake in Bhopal?"
+      ],
+      "responses": [
+        "Bhojtal, formerly known as Upper Lake, is a large lake which lies on the western side of the capital city of Madhya Pradesh, Bhopal, India. The address of upperlake is - 63, VIP Road, Nakkar Khana, Peer Gate Area, Bhopal, Madhya Pradesh 462001"
+      ]
+    },
+    {
+      "tag": "shahpuralake_about",
+      "patterns": [
+        "Shahpura Lake in Bhopal",
+        "About Shahpura Lake in Bhopal",
+        "Tell me something about Shahpura Lake in Bhopal",
+        "What is Shahpura Lake in Bhopal?",
+        "Description of Shahpura Lake in Bhopal"
+      ],
+      "responses": [
+        "It is belongs to Bhopal Division ,Shahpura Lake, Arera Colony Pin code is 462016 and postal head office is Shivaji Nagar"
+      ]
+    },
+    {
+      "tag": "shahpuralake_address",
+      "patterns": [
+        "where is shahpura lake in Bhopal?",
+        "how can I reach shahpura lake in Bhopal?",
+        "Address of shahpura lake in Bhopal?",
+        "Location of shahpura lake in Bhopal?",
+        "how to reach shahpura lake in Bhopal?"
+      ],
+      "responses": [
+        "The address of shahpura lake is - Shahpura Lake, Arera Colony is a Locality in Bhopal City in Madhya Pradesh State, India. It is belongs to Bhopal Division .Shahpura Lake, Arera Colony Pin code is 462016 and postal head office is Shivaji Nagar"
+      ]
+    },
+    {
+      "tag": "dams_bhopal",
+      "patterns": [
+        "how many Dams are there in bhopal?",
+        "Names of all the Dams in bhopal?",
+        "What are the famous Dams in bhopal?",
+        "List of all the Dams in bhopal?"
+      ],
+      "responses": [
+        "There are mainly 6 dams in bhopal - 01 Kaliyasot 02 Kerwa 03 Hatai kheda 04 Kolar 05 Halali dam 06 Bhadbada"
+      ]
+    },
+    {
+      "tag": "KaliyasotDam",
+      "patterns": [
+        "where is kaliyasot dam in Bhopal?",
+        "how can I reach Kaliyasot dam in Bhopal?",
+        "Address of Kaliyasot dam in Bhopal?",
+        "Location of Kaliyasot dam in Bhopal?",
+        "how to reach Kaliyasot dam in Bhopal?"
+      ],
+      "responses": [
+        "The address of Kaliyasot Dam is - Kolar Road, Chunabhatti, Bhopal - 462016"
+      ]
+    },
+    {
+      "tag": "KerwaDam",
+      "patterns": [
+        "where is Kerwa dam in Bhopal?",
+        "how can I reach Kerwa dam in Bhopal?",
+        "Address of Kerwa dam in Bhopal?",
+        "Location of Kerwa dam in Bhopal?",
+        "how to reach Kerwa dam in Bhopal?"
+      ],
+      "responses": [
+        "The address of Kerwa Dam is - Kerwa Dam, Mendora, Bhopal, Madhya Pradesh 462007"
+      ]
+    },
+    {
+      "tag": "HataiKhedaDam",
+      "patterns": [
+        "where is Hatai kheda dam in Bhopal?",
+        "how can I reach Hatai kheda dam in Bhopal?",
+        "Address of Hatai kheda dam in Bhopal?",
+        "Location of Hatai kheda dam in Bhopal?",
+        "how to reach Hatai kheda dam in Bhopal?"
+      ],
+      "responses": [
+        "The address of Hatai Kheda Dam is - Hatai Kheda Rd, Bhopal, Madhya Pradesh 462022"
+      ]
+    },
+    {
+      "tag": "KolarDam",
+      "patterns": [
+        "where is Kolar Dam in Bhopal?",
+        "how can I reach Kolar Dam in Bhopal?",
+        "Address of Kolar Dam in Bhopal?",
+        "Location of Kolar Dam in Bhopal?",
+        "how to reach Kolar Dam in Bhopal?"
+      ],
+      "responses": [
+        "The address of Kolar Dam is - Lawa Khadi, Madhya Pradesh 466111, Bhopal"
+      ]
+    },
+    {
+      "tag": "HalaliDam",
+      "patterns": [
+        "where is Halali dam in Bhopal?",
+        "how can I reach Halali dam in Bhopal?",
+        "Address of Halali dam in Bhopal?",
+        "Location of Halali dam in Bhopal?",
+        "how to reach Halali dam in Bhopal?"
+      ],
+      "responses": [
+        "This is a small dam on Halali River near the Sanchi->Bhopal road.The address of Halali Dam is - Halali Dam, Madhya Pradesh"
+      ]
+    },
+    {
+      "tag": "BhadbadaDam",
+      "patterns": [
+        "where is Bhadbada dam in Bhopal?",
+        "how can I reach Bhadbada dam in Bhopal?",
+        "Address of Bhadbada dam in Bhopal?",
+        "Location of Bhadbada dam in Bhopal?",
+        "how to reach Bhadbada dam in Bhopal?"
+      ],
+      "responses": [
+        "The address of Bhadbhada Dam is - Bhadbhada, Suraj Nagar, Bhopal, Madhya"
+      ]
+    },
+
+    {
+      "tag": "Parks_bhopal",
+      "patterns": [
+        "how many parks are there in bhopal?",
+        "Names of all the parks in bhopal?",
+        "What are the famous parks in bhopal?",
+        "List of all the parks in bhopal?"
+      ],
+      "responses": [
+        "There are lot of good parks to visit with your family and friends in bhopal. Some of them are 01 Sair sapata 02 Kamla park 03 Ekant park 04 Swarnjayanti Park 05 Mayur park 06 Chinar park"
+      ]
+    },
+    {
+      "tag": "SairSapata_about",
+      "patterns": [
+        "Sair Sapata in Bhopal",
+        "About Sair Sapata in Bhopal",
+        "Tell me something about Sair Sapata in Bhopal",
+        "What is Sair Sapata in Bhopal?",
+        "Description of Sair Sapata in Bhopal"
+      ],
+      "responses": [
+        "Sair Sapata is a significant entertainment zone for all age groups.The tourism complex is predominantly a play park which is also a good leisure space for adults.The tourism complex is predominantly a play park which is also a good leisure space for adults.The complex has attractions such as - like two acres of children's play area, musical fountain, toy train and a suspension bridge. Situated on the banks of the Bada Talaab (Upper Lake) of Bhopal, the suspension bridge is a significant attraction. "
+      ]
+    },
+    {
+      "tag": "SairSapata",
+      "patterns": [
+        "where is Sair Sapata in Bhopal?",
+        "how can I reach Sair Sapata in Bhopal?",
+        "Address of Sair Sapata in Bhopal?",
+        "Location of Sair Sapata in Bhopal?",
+        "how to reach Sair Sapata in Bhopal?"
+      ],
+      "responses": [
+        "Address of Sair Sapata : Bhadbhada Road, Prempura, Bhopal, Madhya Pradesh 462044"
+      ]
+    },
+    {
+      "tag": "Kamlapark",
+      "patterns": [
+        "where is Kamla park in Bhopal?",
+        "how can I reach Kamla park in Bhopal?",
+        "Address of Kamla park in Bhopal?",
+        "Location of Kamla park in Bhopal?",
+        "how to reach Kamla park in Bhopal?"
+      ],
+      "responses": [
+        "Address of Kamla park : It is located near Upper Lake and is well-connected via all means of local transportation. Address: Kamla Park Retghat Bhopal, Kamla Park Rd, Professors Colony, Bhopal, Madhya Pradesh 462001"
+      ]
+    },
+    {
+      "tag": "Ekantpark",
+      "patterns": [
+        "where is Ekant park in Bhopal?",
+        "how can I reach Ekant park in Bhopal?",
+        "Address of Ekant park in Bhopal?",
+        "Location of Ekant park in Bhopal?",
+        "how to reach Ekant park in Bhopal?"
+      ],
+      "responses": [
+        "Address of Ekant park: Ekant ParkChar Imli, Bhopal, Madhya Pradesh 462016"
+      ]
+    },
+    {
+      "tag": "SwarnajayantiPark",
+      "patterns": [
+        "where is Swarna jayanti park in Bhopal?",
+        "how can I reach Swarna jayanti park in Bhopal?",
+        "Address of Swarna jayanti park in Bhopal?",
+        "Location of Swarna jayanti park in Bhopal?",
+        "how to reach Swarna jayanti park in Bhopal?"
+      ],
+      "responses": [
+        "Address of Swarna Jayanti park: 16, Kolar Rd, New Friends Colony, Yashoda Vihar Colony, Chuna Bhatti, Bhopal, Madhya Pradesh 462016"
+      ]
+    },
+    {
+      "tag": "Mayurpark",
+      "patterns": [
+        "where is Mayur park in Bhopal?",
+        "how can I reach Mayur park in Bhopal?",
+        "Address of Mayur parkin Bhopal?",
+        "Location of Mayur park in Bhopal?",
+        "how to reach Mayur park in Bhopal?"
+      ],
+      "responses": [
+        "Address of Mayur Park: BDA Colony, 1250, Main Rd 1, Bheem Nagar, BDA Colony, Tulsi Nagar, Bhopal, Madhya Pradesh 462003"
+      ]
+    },
+    {
+      "tag": "Chinarpark",
+      "patterns": [
+        "where is Chinar park in Bhopal?",
+        "how can I reach Chinar park in Bhopal?",
+        "Address of Chinar park in Bhopal?",
+        "Location of Chinar park in Bhopal?",
+        "how to reach Chinar park in Bhopal?"
+      ],
+      "responses": [
+        "Address of Chinar Park: Link Rd 1, Near Vyapam Square, Bhim Nagar Slums, Shivaji Nagar, Bhopal, Madhya Pradesh 462011"
+      ]
+    },
+
+    {
+      "tag": "Resorts_bhopal",
+      "patterns": [
+        "Famous Resorts in bhopal?",
+        "Names of all the Resorts in bhopal?",
+        "What are the famous Resorts in bhopal?",
+        "List of all the Resorts in bhopal?",
+        "List of some of the best resorts in bhopal?"
+      ],
+      "responses": [
+        "There are lot of good resorts to visit with your family and friends in bhopal. Some of them are 01 Touchwood Resort 02 Samardha Jungle Resort 03 Jehan Numa Resort 04 Crescent Resort 05 MPT Kerwa Resort, Bhopal"
+      ]
+    },
+    {
+      "tag": "Touchwood_about",
+      "patterns": [
+        "Touchwood Resort in Bhopal",
+        "About Touchwood Resort in Bhopal",
+        "Tell me something about Touchwood Resort in Bhopal",
+        "What is Touchwood Resort in Bhopal?",
+        "Description of Touchwood Resort in Bhopal"
+      ],
+      "responses": [
+        "They offer a wide range of Deluxe Rooms, Suites and a private plunge pool to enjoy the sunset. They provide a very special dining experience for you. Let the explorer's spirit run into your soul and cross over to the world. Try out a wide range of cuisines or sip your way against the backdrop of the nature and soothing surrounding. Taking care of your events and parties, the resorts cater to each of them with promise of a perfect setup for your weddings, parties and business meetings and conferences."
+      ]
+    },
+    {
+      "tag": "TouchwoodResort",
+      "patterns": [
+        "where is Touchwood Resort in Bhopal?",
+        "how can I reach Touchwood Resort in Bhopal?",
+        "Address of Touchwood Resort in Bhopal?",
+        "Location of Touchwood Resort in Bhopal?",
+        "how to reach Touchwood Resort in Bhopal?"
+      ],
+      "responses": [
+        "Address of Touchwood Resort: Kerwa Dam, Kerwa Dam Rd, Near, Mendora, Madhya Pradesh 462001"
+      ]
+    },
+    {
+      "tag": "SamardhaJungleResort_about",
+      "patterns": [
+        "Samardha Jungle Resort in Bhopal",
+        "About Samardha Jungle Resort in Bhopal",
+        "Tell me something about Samardha Jungle Resort in Bhopal",
+        "What is Samardha Jungle Resort in Bhopal?",
+        "Description of Samardha Jungle Resort in Bhopal"
+      ],
+      "responses": [
+        "Set in Bhopal, 17 km from People's Mall, Samardha Jungle Resort offers air-conditioned rooms and a garden. Featuring a 24-hour front desk, this property also welcomes guests with a restaurant and an outdoor pool. Guests can have a drink at the snack bar.At the resort, every room has a wardrobe, a flat-screen TV, a private bathroom, bed linen and towels.Guests at Samardha Jungle Resort can enjoy a à la carte or a vegetarian breakfast."
+      ]
+    },
+    {
+      "tag": "SamardhaJungleResort",
+      "patterns": [
+        "where is Samardha Jungle Resort in Bhopal?",
+        "how can I reach Samardha Jungle Resort in Bhopal?",
+        "Address of Samardha Jungle Resort in Bhopal?",
+        "Location of Samardha Jungle Resort in Bhopal?",
+        "how to reach Samardha Jungle Resort in Bhopal?"
+      ],
+      "responses": [
+        "Address of Samardha Jungle Resort: Village Padaria, Samardha Forest Road, Near LNCT College, Raisen Road, 462022 Bhopal"
+      ]
+    },
+    {
+      "tag": "Jehannuma_about",
+      "patterns": [
+        "Jehan numa Palace in Bhopal",
+        "About Jehan numa Palace in Bhopal",
+        "Tell me something about Jehan numa Palace in Bhopal",
+        "What is Jehan numa Palace in Bhopal?",
+        "Description of Jehan numa Palace in Bhopal"
+      ],
+      "responses": [
+        "JEHAN NUMA RETREAT CLUB & SPA is a great choice for travellers looking for a 5 star Resort in Bhopal.The property enjoys a great location advantage and provides easy and fast connectivity to the major transit points of the city. Some of the popular transit points from JEHAN NUMA RETREAT CLUB & SPA are Bhopal Habibganj Railway Station (6.9 kms), Railway Station Bhopal (7.0 kms) and Raja Bhoj Airport (16.3 kms). The Hotel is in proximity to some popular tourist attractions and other places of interest in Bhopal. Some of the tourist attractions near JEHAN NUMA RETREAT CLUB & SPA TT Nagar Stadium (3.2 kms), DB City Mall (6.2 kms), Aura Mall Bhopal (7.2 kms) and Aashima Mall (9.5 kms)."
+      ]
+    },
+    {
+      "tag": "Jehannuma",
+      "patterns": [
+        "where is Jehan numa Palace in Bhopal?",
+        "how can I reach Jehan numa palace in Bhopal?",
+        "Address of Jehan numa palace in Bhopal?",
+        "Location of Jehan numa palace in Bhopal?",
+        "how to reach Jehan numa palace in Bhopal?"
+      ],
+      "responses": [
+        "Address of Jehan Numa Palaca: Vanvihar Rd, Van Vihar National Park, Near, Prempura, Bhopal, Madhya Pradesh 462002"
+      ]
+    },
+    {
+      "tag": "Crescent_about",
+      "patterns": [
+        "Crescent Resort in Bhopal",
+        "About Crescent Resort in Bhopal",
+        "Tell me something about Crescent Resort in Bhopal",
+        "What is Crescent Resort in Bhopal?",
+        "Description of Crescent Resort in Bhopal"
+      ],
+      "responses": [
+        "Hotel Crescent Resorts and Club is a great option for travellers looking out for resort in Sehore/bhopal. It is located in Sehore Rd. Resort is rated 4.0 out of 5, which is considered as very good.From all the 4 Star hotels in Bhopal, Hotel Crescent Resorts and Club is very much popular among the tourists."
+      ]
+    },
+    {
+      "tag": "Crescent",
+      "patterns": [
+        "where is Crescent Resort in Bhopal?",
+        "how can I reach Crescent Resort in Bhopal?",
+        "Address of Crescent Resort in Bhopal?",
+        "Location of Crescent Resort in Bhopal?",
+        "how to reach Crescent Resort in Bhopal?"
+      ],
+      "responses": [
+        "Address of Crecent Resort: New, Sehore Bypass Rd, Alahada Khedi, Madhya Pradesh 466001"
+      ]
+    },
+    {
+      "tag": "MPTKerwaResort_about",
+      "patterns": [
+        "MPT Kerwa Resort, Bhopal",
+        "About MPT Kerwa Resort, Bhopal",
+        "Tell me something about MPT Kerwa Resort, Bhopal",
+        "What is MPT Kerwa Resort, Bhopal?",
+        "Description of MPT Kerwa Resort, Bhopal"
+      ],
+      "responses": [
+        "14 kms from Bhopal, Kerwa is a leisure resort nestled at the edge of Kerwa dam. The view from the window is Kerwa’s USP – it being a panoramic view of the hills and a beautiful reservoir. Kerwa is a perfect weekend retreat for city dwellers, an ideal spot for school picnics, group lunches and team dinners. Nature lovers get to enjoy bird watching and adventure junkies get the only zip lining experience in Madhya Pradesh - here at Kerwa."
+      ]
+    },
+    {
+      "tag": "MPTKerwaResort",
+      "patterns": [
+        "where is MPT Kerwa Resort, Bhopal?",
+        "how can I reach MPT Kerwa Resort, Bhopal?",
+        "Address of MPT Kerwa Resort, Bhopal?",
+        "Location of MPT Kerwa Resort, Bhopal?",
+        "how to reach MPT Kerwa Resort, Bhopal?"
+      ],
+      "responses": [
+        "Address of MPT Kerwa Resort, Bhopal: Off Kotra Sultanabad Near Kerwa Dam, Bhopal 462007"
+      ]
+    },
+
+    {
+      "tag": "Hotels_bhopal",
+      "patterns": [
+        "Famous Hotels in bhopal?",
+        "Names of all the Hotels in bhopal?",
+        "What are the famous Hotels in bhopal?",
+        "List of all the Hotels in bhopal?",
+        "List of some of the best hotels in bhopal?"
+      ],
+      "responses": [
+        "There are lot of good hotels to visit with your family and friends in bhopal. Some of them are 01 Jehan Numa Retreat 02 Hotel Sayaji 03 Noor-us-Sabah 04 Courtyard by Marriott 05 Taj Hotel 06 Radisson Hotel"
+      ]
+    },
+    {
+      "tag": "JehanNumaRetreat",
+      "patterns": [
+        "where is Jehan Numa Retreat in Bhopal?",
+        "how can I reach Jehan Numa Retreat in Bhopal?",
+        "Address of Jehan Numa Retreat in Bhopal?",
+        "Location of Jehan Numa Retreat in Bhopal?",
+        "how to reach Jehan Numa Retreat in Bhopal?"
+      ],
+      "responses": [
+        "Address of Jehan Numa Retrat: Vanvihar Rd, Van Vihar National Park, Near, Prempura, Bhopal, Madhya Pradesh 462002"
+      ]
+    },
+    {
+      "tag": "Sayaji_bhopal",
+      "patterns": [
+        "where is Sayaji Hotel in Bhopal?",
+        "how can I reach Sayaji Hotel in Bhopal?",
+        "Address of Sayaji Hotel in Bhopal?",
+        "Location of Sayaji Hotel in Bhopal?",
+        "how to reach Sayaji Hotel in Bhopal?"
+      ],
+      "responses": [
+        "Address of Hotek Sayaji: Van Vihar Rd, Near Sair Sapata, Prempura, Bhopal, Madhya Pradesh 462002"
+      ]
+    },
+    {
+      "tag": "NoorUsSabah",
+      "patterns": [
+        "where is Noor-Us-Sabah Hotel in Bhopal?",
+        "how can I reach Noor-Us-Sabah Hotel in Bhopal?",
+        "Address of Noor-Us-Sabah Hotel in Bhopal?",
+        "Location of Noor-Us-Sabah Hotel in Bhopal?",
+        "how to reach Noor-Us-Sabah Hotel in Bhopal?"
+      ],
+      "responses": [
+        "Address of Noor-us-Sabah: VIP Road, Kohefiza, Bhopal, Madhya Pradesh 462001"
+      ]
+    },
+    {
+      "tag": "CourtyardByMarriott",
+      "patterns": [
+        "where is Courtyard By Marriott in Bhopal?",
+        "how can I reach Courtyard By Marriott in Bhopal?",
+        "Address of Courtyard By Marriott in Bhopal?",
+        "Location of Courtyard By Marriott in Bhopal?",
+        "how to reach Courtyard By Marriott in Bhopal?"
+      ],
+      "responses": [
+        "Address of Courtyard by MArriott: Db City, Arera Hills, Bhopal, Madhya Pradesh 462011"
+      ]
+    },
+    {
+      "tag": "Taj_bhopal",
+      "patterns": [
+        "where is Taj Hotel in Bhopal?",
+        "how can I reach Taj Hotel in Bhopal?",
+        "Address of Taj Hotel in Bhopal?",
+        "Location of Taj Hotel in Bhopal?",
+        "how to reach Taj Hotel in Bhopal?"
+      ],
+      "responses": [
+        "Address of Hotel Taj: Bhadbhada Road, Chouraha, Bhopal, Madhya Pradesh 462003"
+      ]
+    },
+    {
+      "tag": "Radisson_bhopal",
+      "patterns": [
+        "where is Radisson Hotel in Bhopal?",
+        "how can I reach Radisson Hotel in Bhopal?",
+        "Address of Radisson Hotel in Bhopal?",
+        "Location of Radisson Hotel in Bhopal?",
+        "how to reach Radisson Hotel in Bhopal?"
+      ],
+      "responses": [
+        "Address of Radisson Hotel: Opp Savoy Complex, Gulmohar Colony, E 8 Extention Bhopal, Madhya Pradesh, Bhopal, 462039"
+      ]
+    },
+
+    {
+      "tag": "food_bhopal",
+      "patterns": [
+        "what are the places to have food in bhopal?",
+        "Names of all the places to eat in bhopal?",
+        "What are the good places to eat in bhopal?",
+        "List of all the food places in bhopal?"
+      ],
+      "responses": [
+        "There are lot of good places to have food with your family and friends in bhopal. Some of them are 01 Restaurants 02 Cafe 03 Street Food 04 Different types of Cuisines"
+      ]
+    },
+
+    {
+      "tag": "Restaurants_bhopal",
+      "patterns": [
+        "Famous Restaurants in bhopal?",
+        "Names of all the Restaurants in bhopal?",
+        "What are the famous Restaurants in bhopal?",
+        "List of all the Restaurants in bhopal?",
+        "List of some of the best Restaurants in bhopal?"
+      ],
+      "responses": [
+        "There are lot of famous restaurants to enjoy your meal with your family and friends in bhopal. Some of the best places are 01 Amer Greens 02 Residency 03 Manohar  04 Winds and Waves 05 Shaan E bhopal rail "
+      ]
+    },
+    {
+      "tag": "amergreens",
+      "patterns": [
+        "where is Amer Greens in Bhopal?",
+        "how can I reach Amer Greens in Bhopal?",
+        "Address of Amer Greens in Bhopal?",
+        "Location of Amer Greens in Bhopal?",
+        "how to reach Amer Greens in Bhopal?"
+      ],
+      "responses": [
+        "Address of Amer Greens : NH46, Indus Towne, Ratanpur Sadak, Bhopal, Madhya Pradesh 462047"
+      ]
+    },
+    {
+      "tag": "Residency",
+      "patterns": [
+        "where is Residency in Bhopal?",
+        "how can I reach Residency in Bhopal?",
+        "Address of Residency in Bhopal?",
+        "Location of Residency in Bhopal?",
+        "how to reach Residency in Bhopal?"
+      ],
+      "responses": [
+        "Address of Residency : hotel residency, MP Nagar Zone-I, Zone-I, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462024"
+      ]
+    },
+    {
+      "tag": "Manohar ",
+      "patterns": [
+        "where is Manohar in Bhopal?",
+        "how can I reach Manohar in Bhopal?",
+        "Address of Manohar in Bhopal?",
+        "Location of Manohar in Bhopal?",
+        "how to reach Manohar in Bhopal?"
+      ],
+      "responses": [
+        "Address of Manohar Dairy and Restaurant : 132 A & B, Ram Gopal Maheshwari Marg, near Jyoti Talkies, Zone-I, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462001"
+      ]
+    },
+    {
+      "tag": "windesandwaves",
+      "patterns": [
+        "where is Wind And Waves Restaurant in Bhopal?",
+        "how can I reach Wind And Waves Restaurant in Bhopal?",
+        "Address of Wind And Waves Restaurant in Bhopal?",
+        "Location of Wind And Waves Restaurant in Bhopal?",
+        "how to reach Wind And Waves Restaurant in Bhopal?"
+      ],
+      "responses": [
+        "Address of Wind And Waves Restaurant : Lake View Road, Near Cafe Coffee Day, Shymala Hills, Bhopal, Madhya Pradesh 462002"
+      ]
+    },
+    {
+      "tag": "shaanebhopalrail",
+      "patterns": [
+        "where is Shaan E bhopal rail in Bhopal?",
+        "how can I reach Shaan E bhopal rail in Bhopal?",
+        "Address of Shaan E bhopal rail in Bhopal?",
+        "Location of Shaan E bhopal rail in Bhopal?",
+        "how to reach Shaan E bhopal rail in Bhopal?"
+      ],
+      "responses": [
+        "Address of Shaan E bhopal rail : C/O Lake View Ashok Hotel, Shamla Hills, Bhopal - 462013, Opposite Doordarshan Premises  "
+      ]
+    },
+
+    {
+      "tag": "cafes_bhopal",
+      "patterns": [
+        "Famous Cafes in bhopal?",
+        "Names of all the Cafes in bhopal?",
+        "What are the famous Cafes in bhopal?",
+        "List of all the Cafes in bhopal?",
+        "List of some of the best Cafes in bhopal?"
+      ],
+      "responses": [
+        "There are lot of famous Cafes to enjoy your meal with your family and friends in bhopal. Some of the best places are 01 Bake n Shake 02 Bhopal Baking Co 03 Cafe Coffee Day  04 Sukoon Cafe 05 S7 Socialite Seven "
+      ]
+    },
+    {
+      "tag": "bakenshake",
+      "patterns": [
+        "where is Bake-n-Shake in Bhopal?",
+        "how can I reach Bake-n-Shake in Bhopal?",
+        "Address of Bake-n-Shake in Bhopal?",
+        "Location of Bake-n-Shake in Bhopal?",
+        "how to reach Bake-n-Shake in Bhopal?"
+      ],
+      "responses": [
+        "Address of Bake-n-Shake : Ground Floor, Jyoti Cineplex Compound, Zone-I, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462023"
+      ]
+    },
+    {
+      "tag": "ccd",
+      "patterns": [
+        "where is Cafe Coffee Day in Bhopal?",
+        "how can I reach Cafe Coffee Day in Bhopal?",
+        "Address of CCD in Bhopal?",
+        "Location of Cafe Coffee Day in Bhopal?",
+        "how to reach CCD in Bhopal?"
+      ],
+      "responses": [
+        "Address of Cafe Coffee Day :  Boat Club, Lake View Road, behind Chief Minister Bunglow, Bhopal, Madhya Pradesh 462002"
+      ]
+    },
+    {
+      "tag": "bhopalbakingco",
+      "patterns": [
+        "where is Bhopal Baking Co. in Bhopal?",
+        "how can I reach Bhopal Baking Co. in Bhopal?",
+        "Address of Bhopal Baking Co. in Bhopal?",
+        "Location of Bhopal Baking Co. in Bhopal?",
+        "how to reach Bhopal Baking Co. in Bhopal?"
+      ],
+      "responses": [
+        "Address of Bhopal Baking Co. : 10 No, E-4/90 Link Road Number 3, Market, Arera Colony, Bhopal, Madhya Pradesh 462016"
+      ]
+    },
+    {
+      "tag": "sukooncafe",
+      "patterns": [
+        "where is Sukoon Cafe in Bhopal?",
+        "how can I reach Sukoon Cafe in Bhopal?",
+        "Address of Sukoon Cafe in Bhopal?",
+        "Location of Sukoon Cafe in Bhopal?",
+        "how to reach Sukoon Cafe in Bhopal?"
+      ],
+      "responses": [
+        "Address of Sukoon Cafe :Basement Premium Centre Plot No.146 Nr Fortune Builder, Ram Gopal Maheshwari Marg, Zone-I, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011"
+      ]
+    },
+    {
+      "tag": "s7",
+      "patterns": [
+        "where is S7 Socialite Seven in Bhopal?",
+        "how can I reach S7 Socialite Seven in Bhopal?",
+        "Address of S7 in Bhopal?",
+        "Location of S7 Socialite Seven in Bhopal?",
+        "how to reach S7 in Bhopal?"
+      ],
+      "responses": [
+        "Address of S7 Socialite Seven : Level 4 Hare Govind Complex Beside, Near Hotel Nisarga, Zone-I, Bhopal, Madhya Pradesh 462011"
+      ]
+    },
+
+    {
+      "tag": "streetfood_bhopal",
+      "patterns": [
+        "Famous places to have local street food in bhopal?",
+        "Names of all the local places to eat street food in bhopal?",
+        "What are the famous Street food places in bhopal?",
+        "List of all the places we can get street food in bhopal?",
+        "List of some of the best street food in bhopal?"
+      ],
+      "responses": [
+        "There are lot of famous places to enjoy local street food with your family and friends in bhopal. Some of the best places are 01 Shahpura Lane 02 Chowpati Lalghati Co 03 New Market "
+      ]
+    },
+    {
+      "tag": "shahpuralane",
+      "patterns": [
+        "where is Shahpura food lane in Bhopal?",
+        "how can I reach Shahpura food lane in Bhopal?",
+        "Address of Shahpura food lane in Bhopal?",
+        "Location of Shahpura food lane in Bhopal?",
+        "how to reach Shahpura food lane in Bhopal?"
+      ],
+      "responses": [
+        "Address of Shahpura food lane : Campion street, Arera Colony, Bhopal, Madhya Pradesh 462016"
+      ]
+    },
+    {
+      "tag": "lalghatichowpati",
+      "patterns": [
+        "where is Lalghati Chowpati in Bhopal?",
+        "how can I reach Lalghati Chowpati in Bhopal?",
+        "Address of Lalghati Chowpati in Bhopal?",
+        "Location of Lalghati Chowpati in Bhopal?",
+        "how to reach Lalghati Chowpati in Bhopal?"
+      ],
+      "responses": [
+        "Address of Lalghati Chowpati :  Lalghati Rd, Lalghati Square, Kollu Kheri, Lalghati, Bhopal, Madhya Pradesh 462030"
+      ]
+    },
+
+    {
+      "tag": "foodtype_bhopal",
+      "patterns": [
+        "Famous Cuisines in bhopal?",
+        "Names of all the places the different types of food available in bhopal?",
+        "What are the types of food we get in bhopal?",
+        "List of all the Cuisies available in bhopal?",
+        "List of some of the best types of food served in restaurants of bhopal?"
+      ],
+      "responses": [
+        "Some of the best cuisines available at restaurants of bhopal are 01 Indian 02 Italiain 03 Thai  04 Mexican 05 Chinesse "
+      ]
+    },
+
+    {
+      "tag": "Indian_bhopal",
+      "patterns": [
+        "Famous Indian Cuisines in bhopal?",
+        "Names of all the places the different types of Indian food available in bhopal?",
+        "What are the types of Indian food we can get in bhopal?",
+        "List of all the Indian Cuisies available in bhopal?",
+        "List of some of the best types of Indian food served in restaurants of bhopal?"
+      ],
+      "responses": [
+        "Some of the best restaurant with Indian cuisines in bhopal are 01 Manohar 02 Bapu ki kutia 03 Taste of India  04 ICH 05 Sankalp Restaurant "
+      ]
+    },
+    {
+      "tag": "Manohar_indian",
+      "patterns": [
+        "where is Manohar Dairy in Bhopal?",
+        "how can I reach Manohar Dairy in Bhopal?",
+        "Address of Manohar Dairy in Bhopal?",
+        "Location of Manohar Dairy in Bhopal?",
+        "how to reach Manohar Dairy in Bhopal?"
+      ],
+      "responses": [
+        "Address of Manohar Dairy and Resturant : 132 A & B, Ram Gopal Maheshwari Marg, near Jyoti Talkies, Zone-I, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462001"
+      ]
+    },
+    {
+      "tag": "Bapukikutia",
+      "patterns": [
+        "where is Bapu ki Kutia in Bhopal?",
+        "how can I reach Bapu ki Kutia in Bhopal?",
+        "Address of Bapu ki Kutia in Bhopal?",
+        "Location of Bapu ki Kutia in Bhopal?",
+        "how to reach Bapu ki Kutia in Bhopal?"
+      ],
+      "responses": [
+        "Address of Bapu ki Kutia : Roshanpura Naka, beside Rajbhavan Road, TT Nagar, Bhopal, Madhya Pradesh 462003"
+      ]
+    },
+    {
+      "tag": "TasteofIndia",
+      "patterns": [
+        "where is Taste of India in Bhopal?",
+        "how can I reach Taste of India in Bhopal?",
+        "Address of Taste of India in Bhopal?",
+        "Location of Taste of India in Bhopal?",
+        "how to reach Taste of India in Bhopal?"
+      ],
+      "responses": [
+        "Address of Taste of India : L1 Radhakrishna Shopping Complex, Behind Sargam Cinema, Zone-II, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011"
+      ]
+    },
+    {
+      "tag": "IndianCoffeeHouse",
+      "patterns": [
+        "where is Indian Coffee House in Bhopal?",
+        "how can I reach Indian Coffee House in Bhopal?",
+        "Address of Indian Coffee House in Bhopal?",
+        "Location of Indian Coffee House in Bhopal?",
+        "how to reach Indian Coffee House in Bhopal?"
+      ],
+      "responses": [
+        "Address of Indian Coffee House : 108, Kolar Rd, Banjari, Aashirwad Colony, Kolar Rd, Bhopal, Madhya Pradesh 462007"
+      ]
+    },
+    {
+      "tag": "SankalpRestaurant",
+      "patterns": [
+        "where is Sankalp Restaurant in Bhopal?",
+        "how can I reach Sankalp Restaurant in Bhopal?",
+        "Address of Sankalp Restaurant in Bhopal?",
+        "Location of Sankalp Restaurant in Bhopal?",
+        "how to reach Sankalp Restaurant in Bhopal?"
+      ],
+      "responses": [
+        "Address of Sankalp Restaurant : Food Court, DB City Mall, Zone-II, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011"
+      ]
+    },
+
+    {
+      "tag": "Italian_bhopal",
+      "patterns": [
+        "Famous Italian Cuisines in bhopal?",
+        "Names of all the places the different types of Italian food available in bhopal?",
+        "What are the types of Italian food we can get in bhopal?",
+        "List of all the Italian Cuisies available in bhopal?",
+        "List of some of the best types of Italian food served in restaurants of bhopal?"
+      ],
+      "responses": [
+        "Some of the best restaurant with Italian cuisines in bhopal are 01 La kuchina 02 Pasta Bistro 03 LIG cafe  04 The Public House  05 Bella Vita Pizzeria "
+      ]
+    },
+    {
+      "tag": "LaKuchina",
+      "patterns": [
+        "where is La Kuchina in Bhopal?",
+        "how can I reach La Kuchina in Bhopal?",
+        "Address of La Kuchina in Bhopal?",
+        "Location of La Kuchina in Bhopal?",
+        "how to reach La Kuchina in Bhopal?"
+      ],
+      "responses": ["Address of La Kuchina : Jehan numa palace hotel, Bhopal"]
+    },
+    {
+      "tag": "PastaBistro",
+      "patterns": [
+        "where is Pasta Bistro in Bhopal?",
+        "how can I reach Pasta Bistro in Bhopal?",
+        "Address of Pasta Bistro in Bhopal?",
+        "Location of Pasta Bistro in Bhopal?",
+        "how to reach Pasta Bistro in Bhopal?"
+      ],
+      "responses": [
+        "Address of Pasta Bistro : Dainik Bhaskar Mall, Arera Hills, S-35A, Hoshangabad Rd, DB City Mall, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462016"
+      ]
+    },
+    {
+      "tag": "LIGCafe",
+      "patterns": [
+        "where is LIG Cafe in Bhopal?",
+        "how can I reach LIG Cafe in Bhopal?",
+        "Address of LIG Cafe in Bhopal?",
+        "Location of LIG Cafe in Bhopal?",
+        "how to reach LIG Cafe in Bhopal?"
+      ],
+      "responses": [
+        "Address of LIG Cafe : 7-A, Gufa Mandir Rd, Opp. Domino's , Near Axis Bank ,Lalghati Square Gufa Mandir Road Opp. Domino's , Near Axis Bank, Lalghati Square, Nayapura, Lalghati, Bhopal, Madhya Pradesh 462032"
+      ]
+    },
+    {
+      "tag": "ThePublicHouse",
+      "patterns": [
+        "where is Public House in Bhopal?",
+        "how can I reach Public House in Bhopal?",
+        "Address of Public House in Bhopal?",
+        "Location of Public House in Bhopal?",
+        "how to reach Public House in Bhopal?"
+      ],
+      "responses": [
+        "Address of The Public House : Lower ground floor, Mahadev Complex 7, Service Road, opposite board office, No 6 Locality, Shivaji Nagar, Bhopal, Madhya Pradesh 462016"
+      ]
+    },
+    {
+      "tag": "BellaVitaPizzeria",
+      "patterns": [
+        "where is Bella Vita Pizzeria in Bhopal?",
+        "how can I reach Bella Vita Pizzeria in Bhopal?",
+        "Address of Bella Vita Pizzeria in Bhopal?",
+        "Location of Bella Vita Pizzeria in Bhopal?",
+        "how to reach Bella Vita Pizzeria in Bhopal?"
+      ],
+      "responses": [
+        "Address of Bella Vita Pizzeria : A-6, Green City, E-8, Gulmohar, near Aura Mall, Bhopal, Madhya Pradesh 462039"
+      ]
+    },
+
+    {
+      "tag": "Chinese_bhopal",
+      "patterns": [
+        "Famous Chinese Cuisines in bhopal?",
+        "Names of all the places the different types of Chinese food available in bhopal?",
+        "What are the types of Chinese food we can get in bhopal?",
+        "List of all the Chinese Cuisies available in bhopal?",
+        "List of some of the best types of Chinese food served in restaurants of bhopal?"
+      ],
+      "responses": [
+        "Some of the best restaurant with Chinese cuisines in bhopal are 01 Hong Kong Chinese Restaurant 02 Rice Bowl 03 Sagar gaire  04 Anny’s Asian Bowl  05 Sharma & Vishnu "
+      ]
+    },
+    {
+      "tag": "HongKongChineseRestaurant",
+      "patterns": [
+        "where is Hong Kong Chinese Restaurant in Bhopal?",
+        "how can I reach Hong Kong Chinese Restaurant in Bhopal?",
+        "Address of Hong Kong Chinese Restaurant in Bhopal?",
+        "Location of Hong Kong Chinese Restaurant in Bhopal?",
+        "how to reach Hong Kong Chinese Restaurant in Bhopal?"
+      ],
+      "responses": [
+        "Address of Hong Kong Chinese Restaurant : 131/4, Obedulla Ganj Rd, Near Pragati Petrol Pump, Zone-II, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011"
+      ]
+    },
+    {
+      "tag": "RiceBowl",
+      "patterns": [
+        "where is Rice Bowl in Bhopal?",
+        "how can I reach Rice Bowl in Bhopal?",
+        "Address of Rice Bowl in Bhopal?",
+        "Location of Rice Bowl in Bhopal?",
+        "how to reach Rice Bowl in Bhopal?"
+      ],
+      "responses": [
+        "Address of Rice Bowl : 4B-Mezzanine Floor, A Block, Mansarover Complex, Near Habibganj Station, MP Nagar, Bhopal, Madhya Pradesh 462016"
+      ]
+    },
+    {
+      "tag": "SagarGaire",
+      "patterns": [
+        "where is Sagar Gaire in Bhopal?",
+        "how can I reach Sagar Gaire in Bhopal?",
+        "Address of Sagar Gaire in Bhopal?",
+        "Location of Sagar Gaire in Bhopal?",
+        "how to reach Sagar Gaire in Bhopal?"
+      ],
+      "responses": [
+        "Address of Sagar Gaire : Shop No 72 10 No Market, E-4, Arera Colony, Bhopal, Madhya Pradesh 462016"
+      ]
+    },
+    {
+      "tag": "AnnysAsianBowl",
+      "patterns": [
+        "where is Anny’s Asian Bowl in Bhopal?",
+        "how can I reach Anny’s Asian Bowl in Bhopal?",
+        "Address of Anny’s Asian Bowl in Bhopal?",
+        "Location of Anny’s Asian Bowl in Bhopal?",
+        "how to reach Anny’s Asian Bowl in Bhopal?"
+      ],
+      "responses": [
+        "Address of Anny’s Asian Bowl : 71, Above IndusInd Bank, E-2, Arera Colony, Bhopal, Madhya Pradesh 462016"
+      ]
+    },
+    {
+      "tag": "VishnuSharma",
+      "patterns": [
+        "where is Vishnu Sharma in Bhopal?",
+        "how can I reach Vishnu Sharma in Bhopal?",
+        "Address of Vishnu Sharma in Bhopal?",
+        "Location of Vishnu Sharma in Bhopal?",
+        "how to reach Vishnu Sharma in Bhopal?"
+      ],
+      "responses": [
+        "Address of Vishnu Sharma : No 6 Locality, Shivaji Nagar, Bhopal, Madhya Pradesh 462016"
+      ]
+    },
+    {
+      "tag": "Thai_bhopal",
+      "patterns": [
+        "Famous Thai Cuisines in bhopal?",
+        "Names of all the places the different types of Thai food available in bhopal?",
+        "What are the types of Thai food we can get in bhopal?",
+        "List of all the Thai Cuisies available in bhopal?",
+        "List of some of the best types of Thai food served in restaurants of bhopal?"
+      ],
+      "responses": [
+        "Some of the best restaurant with thai cuisines in bhopal are 01 Rice Bowl Thai and Chinese Restaurant 02 Anny’s Asian Bowl 03 RAW the Restrobar by Chef AJ 04 Tamnak Thai "
+      ]
+    },
+    {
+      "tag": "RiceBowlThaiandChineseRestaurant",
+      "patterns": [
+        "where is Rice Bowl Thai and Chinese Restaurant in Bhopal?",
+        "how can I reach Rice Bowl Thai and Chinese Restaurant in Bhopal?",
+        "Address of Rice Bowl Thai and Chinese Restaurant in Bhopal?",
+        "Location of Rice Bowl Thai and Chinese Restaurant in Bhopal?",
+        "how to reach Rice Bowl Thai and Chinese Restaurant in Bhopal?"
+      ],
+      "responses": [
+        "Address of Rice Bowl Thai and Chinese Restaurant : 4B-Mezzanine Floor, A Block, Mansarover Complex, Near Habibganj Station, MP Nagar, Bhopal, Madhya Pradesh 462016"
+      ]
+    },
+    {
+      "tag": "AnnysAsianBowl_Th",
+      "patterns": [
+        "where is Anny’s Asian Bowl in Bhopal?",
+        "how can I reach Anny’s Asian Bowl in Bhopal?",
+        "Address of Anny’s Asian Bowl in Bhopal?",
+        "Location of Anny’s Asian Bowl in Bhopal?",
+        "how to reach Anny’s Asian Bowl in Bhopal?"
+      ],
+      "responses": [
+        "Address of Anny’s Asian Bowl : 71, Above IndusInd Bank, E-2, Arera Colony, Bhopal, Madhya Pradesh 462016"
+      ]
+    },
+    {
+      "tag": "RAWtheRestrobarbyChefAJ",
+      "patterns": [
+        "where is RAW the Restrobar by Chef AJ in Bhopal?",
+        "how can I reach RAW the Restrobar by Chef AJ in Bhopal?",
+        "Address of RAW the Restrobar by Chef AJ in Bhopal?",
+        "Location of RAW the Restrobar by Chef AJ in Bhopal?",
+        "how to reach RAW the Restrobar by Chef AJ in Bhopal?"
+      ],
+      "responses": [
+        "Address of RAW the Restrobar by Chef AJ : Store no R-1, Third Floor, Arera Hills, Dainik Bhaskar Mall, DB Mall Square, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011"
+      ]
+    },
+    {
+      "tag": "TamnakThai",
+      "patterns": [
+        "where is Tamnak Thai in Bhopal?",
+        "how can I reach Tamnak Thai in Bhopal?",
+        "Address of Tamnak Thai in Bhopal?",
+        "Location of Tamnak Thai in Bhopal?",
+        "how to reach Tamnak Thai in Bhopal?"
+      ],
+      "responses": [
+        "Address of Tamnak Thai : Post Office 49 Jumerati Road near Jumerati Aliganj, Beldarpura, Jumerati, Peer Gate Area, Bhopal, Madhya Pradesh 462001"
+      ]
+    },
+
+    {
+      "tag": "Mexican_bhopal",
+      "patterns": [
+        "Famous Mexican Cuisines in bhopal?",
+        "Names of all the places the different types of Mexican food available in bhopal?",
+        "What are the types of Mexican food we can get in bhopal?",
+        "List of all the Mexican Cuisies available in bhopal?",
+        "List of some of the best types of Mexicanfood served in restaurants of bhopal?"
+      ],
+      "responses": [
+        "Some of the best restaurant with Mexican cuisines in bhopal are 01 Cowboy Restaurant & Lounge and Chinese Restaurant 02 The Patiala house Bhopal Cafe'n Restaurant 03 Greek Food & Beyond 04 Refresh eat and drink 05 The Restaurant Corner 69 "
+      ]
+    },
+    {
+      "tag": "CowboyRestaurant&Lounge",
+      "patterns": [
+        "where is Cowboy Restaurant & Lounge in Bhopal?",
+        "how can I reach Cowboy Restaurant & Loungein Bhopal?",
+        "Address of Cowboy Restaurant & Lounge in Bhopal?",
+        "Location of Cowboy Restaurant & Lounge in Bhopal?",
+        "how to reach Cowboy Restaurant & Lounge in Bhopal?"
+      ],
+      "responses": [
+        "Address of Cowboy Restaurant & Lounge : E-5/12, Opposite Habibganj Police Station, Board Colony, Arera Colony, Bhopal, Madhya Pradesh 462016"
+      ]
+    },
+    {
+      "tag": "ThePatialahouseBhopalCafenRestaurant",
+      "patterns": [
+        "where is The Patiala house Bhopal Cafe'n Restaurant in Bhopal?",
+        "how can I reach The Patiala house Bhopal Cafe'n Restaurant in Bhopal?",
+        "Address of The Patiala house Bhopal Cafe'n Restaurant in Bhopal?",
+        "Location of The Patiala house Bhopal Cafe'n Restaurant in Bhopal?",
+        "how to reach The Patiala house Bhopal Cafe'n Restaurant in Bhopal?"
+      ],
+      "responses": [
+        "Address of The Patiala house Bhopal Cafe'n Restaurant : 393/3,Infront of Vision Krishna School, Hoshangabad Rd, Danish Nagar, Bhopal, Madhya Pradesh 462026"
+      ]
+    },
+    {
+      "tag": "GreekFood&Beyond",
+      "patterns": [
+        "where is Greek Food & Beyond in Bhopal?",
+        "how can I reach Greek Food & Beyond in Bhopal?",
+        "Address of Greek Food & Beyond in Bhopal?",
+        "Location of Greek Food & Beyond in Bhopal?",
+        "how to reach Greek Food & Beyond in Bhopal?"
+      ],
+      "responses": [
+        "Address of Greek Food & Beyond : R-8, Hoshangabad Rd, DB City Mall, Zone-I, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462016"
+      ]
+    },
+    {
+      "tag": "Refresheatanddrink",
+      "patterns": [
+        "where is Refresh eat and drink in Bhopal?",
+        "how can I reach Refresh eat and drink in Bhopal?",
+        "Address of Refresh eat and drink in Bhopal?",
+        "Location of Refresh eat and drink in Bhopal?",
+        "how to reach Refresh eat and drink in Bhopal?"
+      ],
+      "responses": [
+        "Address of Refresh eat and drink : Shop No - LGF-2, Quality Parikrama Building 16 17 kwality parikrama building, near Dainik Bhaskar, Indira Press Complex, Zone-I, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011"
+      ]
+    },
+    {
+      "tag": "TheRestaurantCorner69",
+      "patterns": [
+        "where is The Restaurant Corner 69 in Bhopal?",
+        "how can I reach The Restaurant Corner 69 in Bhopal?",
+        "Address of The Restaurant Corner 69 in Bhopal?",
+        "Location of The Restaurant Corner 69 in Bhopal?",
+        "how to reach The Restaurant Corner 69 in Bhopal?"
+      ],
+      "responses": [
+        "Address of The Restaurant Corner 69 : shop no 24, 25 Lower Ground Floor, CI Square, Kolar Road, Bhopal, Madhya Pradesh 462042"
+      ]
+    },
+
+    {
+      "tag": "Railwaystation_in",
+      "patterns": [
+        "How many railway stations in Indore?",
+        "Number of railway stations in Indore",
+        "Which are the railway Stations in Indore?"
+      ],
+      "responses": [
+        "There are 7 railway stations in Indore 01 Indore Junction 02 Laxmi Bai Nagar 03 Mangliyagaon 04 Saifee Nagar 05 Lokmanya Nagar 06 Rajendra Nagar 07 Rau ",
+        "These are the Railway Stations in Bhopal 01 Indore Junction 02 Laxmi Bai Nagar 03 Mangliyagaon 04 Saifee Nagar 05 Lokmanya Nagar 06 Rajendra Nagar 07 Rau"
+      ]
+    },
+
+    {
+      "tag": "IndoreJunction",
+      "patterns": [
+        "Location of Indore Junction",
+        "How to reach Indore Junction?",
+        "Where is Indore Junction?",
+        "How can I reach to Indore Junction?"
+      ],
+      "responses": ["Chhoti Gwaltoli, Indore, Madhya Pradesh 452007"]
+    },
+    {
+      "tag": "LaxmiBaiNagar",
+      "patterns": [
+        "Location of Laxmi Bai Nagar railway station",
+        "How to reach Laxmi Bai Nagar railway station?",
+        "Where is Laxmi Bai Nagar railway station?",
+        "How can I reach to Laxmi Bai Nagar railway station?"
+      ],
+      "responses": ["Bhagirathpura, Indore, Madhya Pradesh 452015"]
+    },
+    {
+      "tag": "Mangliyagaon",
+      "patterns": [
+        "Location of Mangliyagaon railway station",
+        "How to reach Mangliyagaon railway station?",
+        "Where is Mangliyagaon railway station?",
+        "How can I reach to Mangliyagaon railway station?"
+      ],
+      "responses": ["Manglaya Sadak, Dhabli, Madhya Pradesh 453771"]
+    },
+    {
+      "tag": "SaifeeNagar",
+      "patterns": [
+        "Location of Saifee Nagar railway station ",
+        "How to reach Saifee Nagar railway station ?",
+        "Where is Saifee Nagar railway station ?",
+        "How can I reach to Saifee Nagar railway station?"
+      ],
+      "responses": [
+        "22, Manik Bagh Road, Scheme 102, Nandanvan Colony, Indore, Madhya Pradesh 452014"
+      ]
+    },
+    {
+      "tag": "LokmanyaNagar",
+      "patterns": [
+        "Location of Lokmanya Nagar railway station ",
+        "How to reach Lokmanya Nagar railway station ?",
+        "Where is Lokmanya Nagar railway station ?",
+        "How can I reach to Lokmanya Nagar railway station?"
+      ],
+      "responses": ["Nemi Nagar, Indore, Madhya Pradesh 452009"]
+    },
+    {
+      "tag": "RajendraNagar",
+      "patterns": [
+        "Location of Rajendra Nagarrailway station in indore ",
+        "How to reach  railway station Rajendra Nagarrailway station in indore?",
+        "Where is Rajendra Nagarrailway station in indore railway station ?",
+        "How can I reach to Rajendra Nagarrailway station in indore railway station?"
+      ],
+      "responses": ["Takshashila Nagar, Indore, Madhya Pradesh 452012"]
+    },
+    {
+      "tag": "Rau",
+      "patterns": [
+        "Location of Rau railway station ",
+        "How to reach Rau railway station ?",
+        "Where is Rau railway station ?",
+        "How can I reach to Rau railway station?"
+      ],
+      "responses": ["Rau, Indore, Madhya Pradesh 453331"]
+    },
+
+    {
+      "tag": "Airport_in",
+      "patterns": [
+        "What is the name of airport in Indore",
+        "Can you please tell me name of Indore airport?"
+      ],
+      "responses": [
+        "Devi Ahilya Bai Holkar Airport",
+        "Indore Airport, also Devi Ahilya Bai Holkar Airport"
+      ]
+    },
+    {
+      "tag": "DeviAhilyaBaiHolkarAirport",
+      "patterns": [
+        "Location of Devi Ahilya Bai Holkar Airport",
+        "How to reach Devi Ahilya Bai Holkar Airport?",
+        "Where is Devi Ahilya Bai Holkar Airport?",
+        "How can I reach to Devi Ahilya Bai Holkar Airport?"
+      ],
+      "responses": ["Indore, Madhya Pradesh, India"]
+    },
+
+    {
+      "tag": "BusStand_in",
+      "patterns": [
+        "How many Bus Stands in Indore?",
+        "Number of Bus Stands in Indore",
+        "Which are the Bus Stands in Indore?"
+      ],
+      "responses": [
+        "There are 4 Bus Stands in Indore 01 Gangwal Bus Stand 02 Sarwate Bus Stand 03 Navlakha Bus Stand 04 Dewas Naka Bus Stop 05 MP Tourism Bus Stand 06 Charted Bus Stand ",
+        "These are the Bus Stands in  "
+      ]
+    },
+    {
+      "tag": "GangwalBusStand",
+      "patterns": [
+        "Location of Gangwal Bus Stand",
+        "How to reach Gangwal Bus Stand ?",
+        "Where is Gangwal Bus Stand ?",
+        "How can I reach to Gangwal Bus Stand ?"
+      ],
+      "responses": [
+        "Kagdipura Road, Gangwal Bus Stand, MOG Lines, Scheme 71, Indore, Madhya Pradesh 452002"
+      ]
+    },
+    {
+      "tag": "SarwateBusStand",
+      "patterns": [
+        "Location of Sarwate Bus Stand",
+        "How to reach Sarwate Bus Stand?",
+        "Where is Sarwate Bus Stand ?",
+        "How can I reach to Sarwate Bus Stand?"
+      ],
+      "responses": [
+        "Chhoti Gwaltoli, Near Indore Railway Station, Madhya Pradesh India"
+      ]
+    },
+    {
+      "tag": "NavlakhaBusStand",
+      "patterns": [
+        "Location of Navlakha Bus Stand",
+        "How to reach Navlakha Bus Stand?",
+        "Where is Navlakha Bus Stand?",
+        "How can I reach to Navlakha Bus Stand ?"
+      ],
+      "responses": ["Ahilyapur, Navlakha, Indore, Madhya Pradesh 452001"]
+    },
+    {
+      "tag": "DewasNakaBusStop",
+      "patterns": [
+        "Location of Dewas Naka Bus Stop",
+        "How to reach Dewas Naka Bus Stop?",
+        "Where is ?",
+        "How can I reach to ?"
+      ],
+      "responses": [
+        "AB Rd, Dewas Naka, Lasudia Mori, Indore, Madhya Pradesh 453771"
+      ]
+    },
+    {
+      "tag": "MPTourismBusStand",
+      "patterns": [
+        "Location of MP Tourism Bus Stand",
+        "How to reach MP Tourism Bus Stand?",
+        "Where is MP Tourism Bus Stand ?",
+        "How can I reach to MP Tourism Bus Stand?"
+      ],
+      "responses": ["Red Church Colony, Residency Area, Indore, Madhya Pradesh"]
+    },
+    {
+      "tag": "ChartedBusStand",
+      "patterns": [
+        "Location of Charted Bus Stand in indore",
+        "How to reach Charted Bus Stand in indore?",
+        "Where is Charted Bus Stand in indore ?",
+        "How can I reach to Charted Bus Stand in indore?"
+      ],
+      "responses": [" MVPF+3C6, Davv Takshila Parisar, Indore, Madhya Pradesh"]
+    },
+
+    {
+      "tag": "Touristplaces_in",
+      "patterns": [
+        "Which are some good places to visit in Indore?",
+        "Tourist places in Indore",
+        "Where can I visit in Indore?",
+        " "
+      ],
+      "responses": [
+        "There are several places to visit in Bhopal like Museums,Temples,Mosques,National parks, Historical Places, Amusement parks, Where you want to go? ",
+        "You can visit on several places like Museums,Temples,Mosques,National parks, Historical Places, Amusement parks, Where you want to visit?"
+      ]
+    },
+
+    {
+      "tag": "Museum_in",
+      "patterns": [
+        "Museums in Indore",
+        "how many Museums are there in Indore?",
+        "Names of all the Museums in Indore?",
+        "What are the famous Museums in Indore?",
+        "List of all the  Museums in Indore?"
+      ],
+      "responses": [
+        "There are some famous Museums in Indore 01 Central Museum  02 Weapons Museum 03 ",
+        "These are some famous meseums in Indore"
+      ]
+    },
+    {
+      "tag": "CentralMuseum_about",
+      "patterns": [
+        "Central Museum in indore",
+        "About Central Museum in indore",
+        "Tell me something about Central Museum in indore ",
+        "What is Central Museum in indore?",
+        "Description of Central Museum in indore"
+      ],
+      "responses": [
+        "Also known as the Indore Museum, this is one of the most prominent museums in the entire city. Established in the year 1929, the museum has borrowed a lot of its present archive from the Malwa region."
+      ]
+    },
+    {
+      "tag": "CentralMuseum _address",
+      "patterns": [
+        "Location of Central Museum in indore",
+        "How to reach Central Museum in indore?",
+        "Where is Central Museum in indore?",
+        "How can I reach to Central Museum in indore?"
+      ],
+      "responses": [
+        "Near GPO Square, Residency, Navlakha, Indore, Madhya Pradesh 452001"
+      ]
+    },
+
+    {
+      "tag": "WeaponsMuseum_address",
+      "patterns": [
+        "Location of Weapons Museum in indore",
+        "How to reach Weapons Museum in indore?",
+        "Where is Weapons Museum in indore?",
+        "How can I reach to Weapons Museum in indore?"
+      ],
+      "responses": [
+        "PRFC+F8P, Kalani Nagar Extension, BSF Range, Indore, Madhya Pradesh 452006"
+      ]
+    },
+
+    {
+      "tag": "Temples_in",
+      "patterns": [
+        " Temples in Indore",
+        "how many Temples are there in Indore?",
+        "Names of all the Temples in Indore?",
+        "What are the famous Temples in Indore?",
+        "List of all the Temples in Indore?"
+      ],
+      "responses": [
+        "There are some famous Museums in Indore 01 Khajrana Ganesh Mandir 02 Annapurna Temple 03 Bada Ganpati Mandir 04 Shree Bijasan Mata Mandir ",
+        "These are some famous meseums in Indore 01 Khajrana Ganesh Mandir 02 Annapurna Temple 03 Bada Ganpati Mandir 04 Shree Bijasan Mata Mandir"
+      ]
+    },
+    {
+      "tag": "KhajranaGaneshMandir_about",
+      "patterns": [
+        "Khajrana Ganesh Mandir",
+        "About Khajrana Ganesh Mandir",
+        "Tell me something about Khajrana Ganesh Mandir",
+        "What is Khajrana Ganesh Mandir?",
+        "Description of Khajrana Ganesh Mandir"
+      ],
+      "responses": [
+        "Khajrana Ganesh Temple is a pilgrimage center in Indore in the Indian state of Madhya Pradesh, India, dedicated to Ganesha. Built during the reign of Holkar dynasty."
+      ]
+    },
+    {
+      "tag": "KhajranaGaneshMandir_address",
+      "patterns": [
+        "Location of Khajrana Ganesh Mandir",
+        "How to reach Khajrana Ganesh Mandir?",
+        "Where is Khajrana Ganesh Mandir?",
+        "How can I reach to Khajrana Ganesh Mandir?"
+      ],
+      "responses": [
+        "Ganeshpuri Main Rd, Ganeshpuri, Khajrana, Indore, Madhya Pradesh 452016"
+      ]
+    },
+    {
+      "tag": "AnnapurnaTemple_about",
+      "patterns": [
+        "Annapurna Temple indore",
+        "About Annapurna Temple in indore",
+        "Tell me something about Annapurna Temple in indore",
+        "What is Annapurna Temple in indore?",
+        "Description of Annapurna Temple in indore"
+      ],
+      "responses": [
+        "The Annapurna Temple, besides being a place for pilgrimages is also a tourist attraction. Dedicated to Goddess Annapurna, the deity of food the temple also houses the shrines of Sivan, Hanuman and Kalabhairava."
+      ]
+    },
+    {
+      "tag": "AnnapurnaTemple_address",
+      "patterns": [
+        "Location of  Annapurna Temple indore",
+        "How to reach Annapurna Temple?",
+        "Where is Annapurna Temple in indore?",
+        "How can I reach to Annapurna Temple?"
+      ],
+      "responses": [
+        "23, Annapurna Rd, Annapurna Mandir, Kranti Kriplani Nagar, Indore, Madhya Pradesh 452009"
+      ]
+    },
+    {
+      "tag": "BadaGanpatiMandir_about",
+      "patterns": [
+        "Bada Ganpati Mandir",
+        "About Bada Ganpati Mandir",
+        "Tell me something about Bada Ganpati Mandir",
+        "What is Bada Ganpati Mandir?",
+        "Description of Bada Ganpati Mandir"
+      ],
+      "responses": [
+        "Housing an iconic 25 foot tall idol of Lord Ganesha, Bada Ganesha Temple is one of the must see tourist attractions of Indore. The statue of lord Ganesha here is believed to be the largest in the whole world."
+      ]
+    },
+    {
+      "tag": "BadaGanpatiMandir_address",
+      "patterns": [
+        "Location of Bada Ganpati Mandir",
+        "How to reach Bada Ganpati Mandir?",
+        "Where is Bada Ganpati Mandir?",
+        "How can I reach to Bada Ganpati Mandir?"
+      ],
+      "responses": ["Bada Ganpati, Malharganj, Indore, Madhya Pradesh 452002"]
+    },
+    {
+      "tag": "ShreeBijasanMataMandir_about",
+      "patterns": [
+        "Shree Bijasan Mata Mandir",
+        "About Shree Bijasan Mata Mandir",
+        "Tell me something about Shree Bijasan Mata Mandir",
+        "What is Shree Bijasan Mata Mandir?",
+        "Description of Shree Bijasan Mata Mandir"
+      ],
+      "responses": [
+        "Bijasen Tekri is a beautiful temple of Bijasen Mata, situated on a hill-top in Indore. Bijasen Mata is said to be a secret form of Goddess Durga. Widely known as Bijasen Tekri, this small temple was built in the year 1920. The location of the temple offers a splendid view of the city lying below."
+      ]
+    },
+    {
+      "tag": "ShreeBijasanMataMandir_address",
+      "patterns": [
+        "Location of Shree Bijasan Mata Mandir",
+        "How to reach Shree Bijasan Mata Mandir?",
+        "Where is Shree Bijasan Mata Mandir?",
+        "How can I reach to Shree Bijasan Mata Mandir?"
+      ],
+      "responses": [
+        "Devi Ahillyabai Holkar Airport Area, Indore, Madhya Pradesh 453112"
+      ]
+    },
+
+    {
+      "tag": "Mosque_in",
+      "patterns": [
+        "Mosque in indore",
+        "how many Mosque are there in indore?",
+        "Names of all the Mosque in indore?",
+        "What are the famous Mosque in indore?",
+        "List of all the Mosque in indore?"
+      ],
+      "responses": [
+        "There are some famous Mosque in indore 01 Madina Masjid 02 Jama Masjid 03 Masjid E Saifee",
+        "These are some famous Mosque in Bhopal 01 Madina Masjid 02 Jama Masjid 03 Masjid E Saifee"
+      ]
+    },
+    {
+      "tag": "MadinaMasjid_about",
+      "patterns": [
+        "Madina Masjid in indore",
+        "About in Madina Masjid indore",
+        "Tell me something about Madina Masjid in indore",
+        "What is Madina Masjid in indore?",
+        "Description of Madina Masjid in indore"
+      ],
+      "responses": [
+        "The Madina Masjid is a three storied Sunni traditional mosque located in the centre of Indore. It is a pivotal place of worship for the local Muslim community and all prayers including formal Jum’a are conducted here."
+      ]
+    },
+    {
+      "tag": "MadinaMasjid_address",
+      "patterns": [
+        "Location of Madina Masjid in indore",
+        "How to reach Madina Masjid in indore?",
+        "Where is Madina Masjid in indore?",
+        "How can I reach to Madina Masjid in indore?"
+      ],
+      "responses": [
+        "Madina masjid, Madina Nagar, Azad Nagar, Indore, Madhya Pradesh 452001"
+      ]
+    },
+    {
+      "tag": "JamaMasjid_about_in",
+      "patterns": [
+        "Jama Masjid in indore",
+        "About in Jama Masjid indore",
+        "Tell me something about Jama Masjid in indore",
+        "What is Jama Masjid in indore?",
+        "Description of Jama Masjid in indore"
+      ],
+      "responses": [
+        "the beautiful Jama Masjid in Indore near the Jain Kanch Mandir will surely attract your eyes.  It is an important place for Muslims around the area.  As a tourist, it will be comforting to know that there are a number of hotels in its vicinity."
+      ]
+    },
+    {
+      "tag": "JamaMasjid_address_in",
+      "patterns": [
+        "Location of Jama Masjid in indore",
+        "How to reach Jama Masjid in indore?",
+        "Where is Jama Masjid in indore?",
+        "How can I reach to Jama Masjid in indore?"
+      ],
+      "responses": [
+        "ROOM 31 JAMA MASJID, Kunwar Mandli, Badwali Chowki, Indore, Madhya Pradesh 452002"
+      ]
+    },
+    {
+      "tag": "MasjidESaifee_about",
+      "patterns": [
+        "Masjid E Saifee",
+        "About Masjid E Saifee",
+        "Tell me something about Masjid E Saifee",
+        "What is Masjid E Saifee?",
+        "Description of Masjid E Saifee"
+      ],
+      "responses": [
+        "This is another well known mosque in Indore worth visiting. Any tourist will be awestruck by the solemn interior which gives a great feel to the place. It has fairly regularized prayer timings."
+      ]
+    },
+    {
+      "tag": "MasjidESaifee_address",
+      "patterns": [
+        "Location of Masjid E Saifee",
+        "How to reach Masjid E Saifee?",
+        "Where is Masjid E Saifee?",
+        "How can I reach to Masjid E Saifee"
+      ],
+      "responses": [
+        "Saify Nagar, Transport Nagar, Indore, Madhya Pradesh, 452001"
+      ]
+    },
+
+    {
+      "tag": "Historicalplaces_in",
+      "patterns": [
+        "Historical Places in Indore",
+        "how many Historical Places are there in Indore?",
+        "Name of all the Historical Places in Indore?",
+        "What are the famous Historical Places in Indore?",
+        "List of all the  Historical Places in Indore?"
+      ],
+      "responses": [
+        "There are some famous Historical Places in indore 01 Rajwada Palace 02 Nilkanth Mahal 03 Lalbaag Palace 04 Krishna pura chhatris",
+        "These are some famous Historical Places in indore 01 Rajwada Palace 02 Nilkanth Mahal 03 Lalbaag Palace 04 Krishna pura chhatris"
+      ]
+    },
+    {
+      "tag": "RajwadaPalace_about",
+      "patterns": [
+        "Rajwada Palace in indore",
+        "About Rajwada Palace",
+        "Tell me something about Rajwada Palace in indore ",
+        "What is Rajwada Palace in indore?",
+        "Description of Rajwada Palace in indore"
+      ],
+      "responses": [
+        "Rajwada is a historical palace in the city of Indore, Madhya Pradesh. It was built by the Holkars of the Maratha Empire about two centuries ago. This seven storied structure is located near the Chhatris and serves today as a fine example of royal grandeur and architectural skills."
+      ]
+    },
+    {
+      "tag": "RajwadaPalace_address",
+      "patterns": [
+        "Location of in indore",
+        "How to reach in indore?",
+        "Where is in indore?",
+        "How can I reach to in indore"
+      ],
+      "responses": ["Rajwada, Indore, Madhya Pradesh 452002"]
+    },
+
+    {
+      "tag": "NilkanthMahal_about",
+      "patterns": [
+        "Nilkanth Mahal in indore",
+        "About Nilkanth Mahal",
+        "Tell me something about Nilkanth Mahal in indore ",
+        "What is Nilkanth Mahal in indore?",
+        "Description of Nilkanth Mahal in indore"
+      ],
+      "responses": [
+        "The Nilkanth Mahal palace in Madhya Pradesh was built by the Mughal Governor of Mandu – Shah Badgah, as recorded in an inscription on the site. The palace was constructed for Mughal Emperor Akbar’s Hindu wife, Harka Bai ( title Mariyam up Zaman) remembered as Jodhabai in common memory, in the 16th century, by his governor Shah Badgah"
+      ]
+    },
+    {
+      "tag": "NilkanthMahal_address",
+      "patterns": [
+        "Location of Nilkanth Mahal in indore",
+        "How to reach Nilkanth Mahal in indore?",
+        "Where is Nilkanth Mahal in indore?",
+        "How can I reach to Nilkanth Mahal in indore"
+      ],
+      "responses": ["8CP3+FRP, Mandav, Madhya Pradesh 454010"]
+    },
+    {
+      "tag": "LalbaagPalace_about",
+      "patterns": [
+        "Lalbaag Palace in indore",
+        "About Lalbaag Palace",
+        "Tell me something about  Lalbaag Palace in indore ",
+        "What is Lalbaag Palace in indore?",
+        "Description of Lalbaag Palace in indore"
+      ],
+      "responses": [
+        "One of the royal palaces of the Holkar dynasty, the LalBagh Palace is one of the most prominent examples of Holkar era architecture in Indore. It is one of the best palaces and historical attractions in Indore."
+      ]
+    },
+    {
+      "tag": "LalbaagPalace_address",
+      "patterns": [
+        "Location of Lalbaag Palace in indore",
+        "How to reach Lalbaag Palace in indore?",
+        "Where is Lalbaag Palace in indore?",
+        "How can I reach to Lalbaag Palace in indore"
+      ],
+      "responses": [
+        "Nai Duniya, Revenue Colony, Indira nagar, Indore, Madhya Pradesh 452007"
+      ]
+    },
+    {
+      "tag": "Krishnapurachhatris_about",
+      "patterns": [
+        "Krishna pura chhatris in indore",
+        "About Krishna pura chhatris",
+        "Tell me something about Krishna pura chhatris in indore ",
+        "What is Krishna pura chhatris in indore?",
+        "Description of Krishna pura chhatris in indore"
+      ],
+      "responses": [
+        "comprises of three chhatris or cenotaphs. These structures house the remains of the deceased members of the Holkar Dynasty and hence are also called the Holkar Chaatris. Built in the 19th century over the place where these rulers were cremated, the place is named after Krishna Bhai Holkar, who was the wife of the famous military leader Yashwantrao Holkar."
+      ]
+    },
+    {
+      "tag": "Krishnapurachhatris_address",
+      "patterns": [
+        "Location of Krishna pura chhatris in indore",
+        "How to reach Krishna pura chhatris in indore?",
+        "Where is Krishna pura chhatris in indore?",
+        "How can I reach to Krishna pura chhatris in indore"
+      ],
+      "responses": [
+        "Mahatma Gandhi Rd, Rajwada, Maharaja Tukoji Rao Holker Cloth Market, Indore, Madhya Pradesh 452007"
+      ]
+    },
+
+    {
+      "tag": "AmusementParks_in",
+      "patterns": [
+        "Amusement Parks in indore",
+        "how many Amusement Parks are there in indore?",
+        "Name of all the Amusement Parks in indore?",
+        "What are the famous Amusement Parks  in indore?",
+        "List of all the Amusement Parks in indore?"
+      ],
+      "responses": [
+        "There are some famous Amusement Parks in indore 01 Nakhrali dhani water park 02 Shell City water and adventure park",
+        "These are some famous Amusement Parks in indore 01 Nakhrali dhani water park 02 Shell City water and adventure park "
+      ]
+    },
+    {
+      "tag": "Nakhralidhaniwaterpark_about",
+      "patterns": [
+        "Nakhrali dhani water park in indore",
+        "About Nakhrali dhani water park in indore",
+        "Tell me something about Nakhrali dhani water park in indore",
+        "What is Nakhrali dhani water park in indore?",
+        "Description of Nakhrali dhani water park in indore"
+      ],
+      "responses": [
+        "Spread across an area of 12 acres, this heritage-themed park features a wide range of amusements including cultural activities, water slides, pools, rides and much more. If you want to experience fun and heritage simultaneously, this is among the best amusement parks in Indore."
+      ]
+    },
+    {
+      "tag": "Nakhralidhaniwaterpark_address",
+      "patterns": [
+        "Location of Nakhrali dhani water park in indore",
+        "How to reach Nakhrali dhani water park in indore?",
+        "Where is Nakhrali dhani water park in indore?",
+        "How can I reach to Nakhrali dhani water park in indore"
+      ],
+      "responses": ["Rau Road, Nakhrali Dhani Bypass, Indore"]
+    },
+    {
+      "tag": "ShellCitywaterandadventurepark_about",
+      "patterns": [
+        "Shell City water and adventure park in indore",
+        "About Shell City water and adventure park in indore",
+        "Tell me something about  in indore",
+        "What is in indore?",
+        "Description of in indore"
+      ],
+      "responses": [
+        "Opened in 1990, it is the first amusement water park in Indore. Owing to the variety of exhilarating rides and water slides it houses, it is one of the most popular amusement parks in Indore for adventure junkies."
+      ]
+    },
+    {
+      "tag": "ShellCitywaterandadventurepark_address",
+      "patterns": [
+        "Location of Shell City water and adventure park ",
+        "How to reach Shell City water and adventure park  ?",
+        "Where is Shell City water and adventure park  ?",
+        "How can I reach to Shell City water and adventure park  "
+      ],
+      "responses": ["Khandwa Rd, Indore, Madhya Pradesh 452020"]
+    },
+
+    {
+      "tag": "foodtype_Indore",
+      "patterns": [
+        "Famous Cuisines in Indore?",
+        "Names of all the places the different types of food available in Indore?",
+        "What are the types of food we get in Indore?",
+        "List of all the Cuisies available in Indore?",
+        "List of some of the best types of food served in restaurants of Indore?"
+      ],
+      "responses": [
+        "Some of the best cuisines available at restaurants of Indore are 01 Indian 02 Italiain 03 Thai  04 Mexican 05 Chinesse "
+      ]
+    },
+
+    {
+      "tag": "Indian_Indore",
+      "patterns": [
+        "Famous Indian Cuisines in Indore?",
+        "Names of all the places the different types of Indian food available in Indore?",
+        "What are the types of Indian food we can get in Indore?",
+        "List of all the Indian Cuisies available in Indore?",
+        "List of some of the best types of Indian food served in restaurants of Indore?"
+      ],
+      "responses": [
+        "Some of the best restaurant with Indian cuisines in Indore are 01 Vidorra The Terrace Tavern 02 Romba South 03 Harmony's Restaurant  04 Indian Food House 05 Veg Tawa Restaurant & Cafe "
+      ]
+    },
+    {
+      "tag": "VidorraTheTerraceTavern",
+      "patterns": [
+        "where is Vidorra The Terrace Tavern in Indore?",
+        "how can I reach Vidorra The Terrace Tavern in Indore?",
+        "Address of Vidorra The Terrace Tavern in Indore?",
+        "Location of Vidorra The Terrace Tavern in Indore?",
+        "how to reach Vidorra The Terrace Tavern in Indore?"
+      ],
+      "responses": [
+        "Address of Vidorra The Terrace Tavern and Resturant : Shekhar central, AB Rd, Manorama Ganj, Indore, Madhya Pradesh 452018"
+      ]
+    },
+    {
+      "tag": "RombaSouth",
+      "patterns": [
+        "where is Romba South in Indore?",
+        "how can I reach Romba South in Indore?",
+        "Address of Romba South in Indore?",
+        "Location of Romba South in Indore?",
+        "how to reach Romba South in Indore?"
+      ],
+      "responses": [
+        "Address of Romba South : PU 13, 14, Ground Floor, Airen Heights, Sector 54, Vijay Nagar, Opp. C21 Mall, near Teleperformance, Scheme 54 PU4, Indore, Madhya Pradesh 452001"
+      ]
+    },
+    {
+      "tag": "HarmonysRestaurant",
+      "patterns": [
+        "where is Harmony's Restaurant in Indore?",
+        "how can I reach Harmony's Restaurant in Indore?",
+        "Address of Harmony's Restaurant in Indore?",
+        "Location of Harmony's Restaurant in Indore?",
+        "how to reach Harmony's Restaurant in Indore?"
+      ],
+      "responses": [
+        "Address of Harmony's Restaurant : 158, Gita Bhawan Rd, Opposite ICICI Bank, Kanchan Bagh, Indore, Madhya Pradesh 452001"
+      ]
+    },
+    {
+      "tag": "IndianFoodHouse",
+      "patterns": [
+        "where is Indian Food House in Indore?",
+        "how can I reach Indian Food House in Indore?",
+        "Address of Indian Food House in Indore?",
+        "Location of Indian Food House in Indore?",
+        "how to reach Indian Food House in Indore?"
+      ],
+      "responses": [
+        "Address of Indian Food House : Shop no.- 3, Metro Tower, AB Rd, Opposite, Vijay Nagar, Indore, Madhya Pradesh 452010"
+      ]
+    },
+    {
+      "tag": "VegTawaRestaurant&Cafe",
+      "patterns": [
+        "where is Veg Tawa Restaurant & Cafe in Indore?",
+        "how can I reach Veg Tawa Restaurant & Cafe in Indore?",
+        "Address of Veg Tawa Restaurant & Cafe in Indore?",
+        "Location of Veg Tawa Restaurant & Cafe in Indore?",
+        "how to reach Veg Tawa Restaurant & Cafe in Indore?"
+      ],
+      "responses": [
+        "Address of Veg Tawa Restaurant & Cafe : 1877 A, sector D, sudama nagar ring road, Phooti Kothi Cir, Indore, Madhya Pradesh 452009"
+      ]
+    },
+
+    {
+      "tag": "Italian_Indore",
+      "patterns": [
+        "Famous Italian Cuisines in Indore?",
+        "Names of all the places the different types of Italian food available in Indore?",
+        "What are the types of Italian food we can get in Indore?",
+        "List of all the Italian Cuisies available in Indore?",
+        "List of some of the best types of Italian food served in restaurants of Indore?"
+      ],
+      "responses": [
+        "Some of the best restaurant with Italian cuisines in Indore are 01 Little Italy Restaurant, Indore 02 Mr. Beans 03 Molto Bene Pizzeria  04 The Eyry 05 The Monroe Cafe "
+      ]
+    },
+    {
+      "tag": "LittleItalyRestaurant",
+      "patterns": [
+        "where is Little Italy Restaurant, Indore ?",
+        "how can I reach Little Italy Restaurant, Indore?",
+        "Address of Little Italy Restaurant, Indore?",
+        "Location of Little Italy Restaurant, Indore?",
+        "how to reach Little Italy Restaurant, Indore?"
+      ],
+      "responses": [
+        "Address of Little Italy Restaurant, Indore : 78/2nd, Brilliant Convention Centre, near Lifecare Hospital, Vijay Nagar, Indore, Madhya Pradesh 452010"
+      ]
+    },
+    {
+      "tag": "MrBeans",
+      "patterns": [
+        "where is Mr. Beans in Indore?",
+        "how can I reach Mr. Beans in Indore?",
+        "Address of Mr. Beans in Indore?",
+        "Location of Mr. Beans in Indore?",
+        "how to reach Mr. Beans in Indore?"
+      ],
+      "responses": [
+        "Address of Mr. Beans : 100, Near, Saket Club Rd, Near Saket Club, Saket Nagar, Indore, Madhya Pradesh 452018"
+      ]
+    },
+    {
+      "tag": "MoltoBenePizzeria",
+      "patterns": [
+        "where is Molto Bene Pizzeria in Indore?",
+        "how can I reach Molto Bene Pizzeria in Indore?",
+        "Address of Molto Bene Pizzeria in Indore?",
+        "Location of Molto Bene Pizzeria in Indore?",
+        "how to reach Molto Bene Pizzeria in Indore?"
+      ],
+      "responses": [
+        "Address of Molto Bene Pizzeria : 46, opposite CHL Hospital, Shree Nagar Main Colony, Anoop Nagar, Indore, Madhya Pradesh 452002"
+      ]
+    },
+    {
+      "tag": "TheEyry",
+      "patterns": [
+        "where is The Eyry in Indore?",
+        "how can I reach The Eyry in Indore?",
+        "Address of The Eyry in Indore?",
+        "Location of The Eyry in Indore?",
+        "how to reach The Eyry in Indore?"
+      ],
+      "responses": [
+        "Address of The Eyry : GF Narayan Kothi 18 R S Bhandari Marg, Janjeerwala Square, Indore, Madhya Pradesh 452018"
+      ]
+    },
+    {
+      "tag": "TheMonroeCafe",
+      "patterns": [
+        "where is The Monroe Cafe in Indore?",
+        "how can I reach The Monroe Cafe in Indore?",
+        "Address of The Monroe Cafe in Indore?",
+        "Location of The Monroe Cafe in Indore?",
+        "how to reach The Monroe Cafe in Indore?"
+      ],
+      "responses": [
+        "Address of The Monroe Cafe : Gold Stone Building, 3/5, near 56 Shops, New Palasia, Indore, Madhya Pradesh 452001"
+      ]
+    },
+
+    {
+      "tag": "Chinese_Indore",
+      "patterns": [
+        "Famous Chinese Cuisines in Indore?",
+        "Names of all the places the different types of Chinese food available in Indore?",
+        "What are the types of Chinese food we can get in Indore?",
+        "List of all the Chinese Cuisies available in Indore?",
+        "List of some of the best types of Chinese food served in restaurants of Indore?"
+      ],
+      "responses": [
+        "Some of the best restaurant with Chinese cuisines in Indore are 01 Hong Kong Chinese Restaurant 02 Chang's Legacy 03 Nom!Nom! Chinese  04 Shiva Chinese Wok  05 Kebabilal's Multi Cuisine Restaurant "
+      ]
+    },
+    {
+      "tag": "HongKongChineseRestaurant",
+      "patterns": [
+        "where is Hong Kong Chinese Restaurant in Indore?",
+        "how can I reach Hong Kong Chinese Restaurant in Indore?",
+        "Address of Hong Kong Chinese Restaurant in Indore?",
+        "Location of Hong Kong Chinese Restaurant in Indore?",
+        "how to reach Hong Kong Chinese Restaurant in Indore?"
+      ],
+      "responses": [
+        "Address of Hong Kong Chinese Restaurant : MG Rd, Nagar Nigam Market, Opposite CANARA BANK - INDORE PALASIA POINT, New Palasia, Madhya Pradesh 452001"
+      ]
+    },
+    {
+      "tag": "ChangsLegacy",
+      "patterns": [
+        "where is Chang's Legacy in Indore?",
+        "how can I reach Chang's Legacy in Indore?",
+        "Address of Chang's Legacy in Indore?",
+        "Location of Chang's Legacy in Indore?",
+        "how to reach Chang's Legacy in Indore?"
+      ],
+      "responses": [
+        "Address of Rice Bowl : Plot No 34 GF, Scheme No 54, Sector G, Vijay Nagar, Indore, Madhya Pradesh 452010"
+      ]
+    },
+    {
+      "tag": "NomNomChinese",
+      "patterns": [
+        "where is Nom! Nom! Chinese in Indore?",
+        "how can I reach Nom!Nom! Chinese in Indore?",
+        "Address of Nom!Nom! Chinese in Indore?",
+        "Location of Nom!Nom! Chinese in Indore?",
+        "how to reach Nom!Nom! Chinese in Indore?"
+      ],
+      "responses": [
+        "Address of Nom!Nom! Chinese : Vijay Nagar, Shop No. 17 Shekhar Planet, Indore, Madhya Pradesh 452001"
+      ]
+    },
+    {
+      "tag": "ShivaChineseWok",
+      "patterns": [
+        "where is Shiva Chinese Wok in Indore?",
+        "how can I reach Shiva Chinese Wok in Indore?",
+        "Address of Shiva Chinese Wok in Indore?",
+        "Location of Shiva Chinese Wok in Indore?",
+        "how to reach Shiva Chinese Wok in Indore?"
+      ],
+      "responses": [
+        "Address of Shiva Chinese Wok : 19, near Saket Club And Saket Zone, Saket Nagar, Indore, Madhya Pradesh 452018"
+      ]
+    },
+    {
+      "tag": "KebabilalsMultiCuisineRestaurant",
+      "patterns": [
+        "where is Kebabilal's Multi Cuisine Restaurant in Indore?",
+        "how can I reach Kebabilal's Multi Cuisine Restaurant in Indore?",
+        "Address of Kebabilal's Multi Cuisine Restaurant in Indore?",
+        "Location of Kebabilal's Multi Cuisine Restaurant in Indore?",
+        "how to reach Kebabilal's Multi Cuisine Restaurant in Indore?"
+      ],
+      "responses": [
+        "Address of Kebabilal's Multi Cuisine Restaurant : 13, Oriental Complex, Scheme No 74C, Indore, Madhya Pradesh 452010"
+      ]
+    },
+
+    {
+      "tag": "Thai_Indore",
+      "patterns": [
+        "Famous Thai Cuisines in Indore?",
+        "Names of all the places the different types of Thai food available in Indore?",
+        "What are the types of Thai food we can get in Indore?",
+        "List of all the Thai Cuisies available in Indore?",
+        "List of some of the best types of Thai food served in restaurants of Indore?"
+      ],
+      "responses": [
+        "Some of the best restaurant with thai cuisines in bhopal are 01 Yo! China 02 Multi Cuisine Restaurant 03 Chang's Legacy"
+      ]
+    },
+    {
+      "tag": "YoChina",
+      "patterns": [
+        "where is Yo! China in Indore?",
+        "how can I reach Yo! China in Indore?",
+        "Address of Yo! China in Indore?",
+        "Location of Yo! China in Indore?",
+        "how to reach Yo! China in Indore?"
+      ],
+      "responses": [
+        "Address of Yo! China : 123, Kanadia Main Road opposite toy mall, near Paras car care, Sanvid Nagar, Indore, Madhya Pradesh 452001"
+      ]
+    },
+    {
+      "tag": "MultiCuisineRestaurant",
+      "patterns": [
+        "where is Multi Cuisine Restaurant in Indore?",
+        "how can I reach Multi Cuisine Restaurant in Indore?",
+        "Address of Multi Cuisine Restaurant in Indore?",
+        "Location of Multi Cuisine Restaurant in Indore?",
+        "how to reach Multi Cuisine Restaurant in Indore?"
+      ],
+      "responses": [
+        "Address of Multi Cuisine Restaurant : 100, sarv suvidha nagar, bicholi road, indore, Indore, Madhya Pradesh 452001"
+      ]
+    },
+    {
+      "tag": "ChangsLegacy_th",
+      "patterns": [
+        "where is Chang's Legacy in Indore?",
+        "how can I reach Chang's Legacy in Indore?",
+        "Address of Chang's Legacy in Indore?",
+        "Location of Chang's Legacy in Indore?",
+        "how to reach Chang's Legacy in Indore?"
+      ],
+      "responses": [
+        "Address of Chang's Legacy : Plot No 34 GF, Scheme No 54, Sector G, Vijay Nagar, Indore, Madhya Pradesh 452010"
+      ]
+    },
+
+    {
+      "tag": "Mexican_Indore",
+      "patterns": [
+        "Famous Mexican Cuisines in Indore?",
+        "Names of all the places the different types of Mexican food available in Indore?",
+        "What are the types of Mexican food we can get in Indore?",
+        "List of all the Mexican Cuisies available in Indore?",
+        "List of some of the best types of Mexicanfood served in restaurants of Indore?"
+      ],
+      "responses": [
+        "Some of the best restaurant with Mexican cuisines in Indore are 01 Cream Centre 02 Now Cafe 03 3Sisters, The Street Restro 04 Mangosteen Eco Life Style 05 The Restaurant Corner 69 "
+      ]
+    },
+    {
+      "tag": "CreamCentre",
+      "patterns": [
+        "where is Cream Centre in Indore?",
+        "how can I reach Cream Centre Indore?",
+        "Address of Cream Centre in Indore?",
+        "Location of Cream Centre in Indore?",
+        "how to reach Cream Centre in Indore?"
+      ],
+      "responses": [
+        "Address of Cream Centre : Sayaji Club Rd, next to WOW Hotel, Badi Bhamori, Indore, Madhya Pradesh 452011"
+      ]
+    },
+    {
+      "tag": "NowCafe",
+      "patterns": [
+        "where is Now Cafe in Indore?",
+        "how can I reach Now Cafe in Indore?",
+        "Address of Now Cafe in Indore?",
+        "Location of Now Cafe in Indore?",
+        "how to reach Now Cafe in Indore?"
+      ],
+      "responses": [
+        "Address of Now Cafe : 615 usha nagar narendra tiwari marg Near dussehra maidan, Sudama Nagar, Indore, Madhya Pradesh 452009"
+      ]
+    },
+    {
+      "tag": "3SistersTheStreetRestro",
+      "patterns": [
+        "where is 3Sisters, The Street Restro in Indore?",
+        "how can I reach 3Sisters, The Street Restro in Indore?",
+        "Address of 3Sisters, The Street Restro in Indore?",
+        "Location of 3Sisters, The Street Restro in Indore?",
+        "how to reach 3Sisters, The Street Restro in Indore?"
+      ],
+      "responses": [
+        "Address of 3Sisters, The Street Restro : 1003, Phooti Kothi Cir, Sector D, Sudama Nagar, Indore, Madhya Pradesh 452009"
+      ]
+    },
+    {
+      "tag": "MangosteenEcoLifeStyle",
+      "patterns": [
+        "where is Mangosteen Eco Life Style in Indore?",
+        "how can I reach Mangosteen Eco Life Style in Indore?",
+        "Address of Mangosteen Eco Life Style in Indore?",
+        "Location of Mangosteen Eco Life Style in Indore?",
+        "how to reach Mangosteen Eco Life Style in Indore?"
+      ],
+      "responses": [
+        "Address of Mangosteen Eco Life Style : 31/4, New Palasia, Indore, Madhya Pradesh 452001"
+      ]
+    },
+    {
+      "tag": "TheRestaurantCorner69",
+      "patterns": [
+        "where is The Freito Cafe & Restaurant in Indore?",
+        "how can I reach Freito Cafe & Restaurant in Indore?",
+        "Address of Freito Cafe & Restaurant in Indore?",
+        "Location of Freito Cafe & Restaurant in Indore?",
+        "how to reach Freito Cafe & Restaurant in Indore?"
+      ],
+      "responses": [
+        "Address of Freito Cafe & Restaurant : 343-344, Vijay Nagar Square, Near Country Inn, Scheme 54 PU4, Indore, Madhya Pradesh 452010"
+      ]
+    },
+
+    {
+      "tag": "Resorts_in",
+      "patterns": [
+        "Famous Resorts in Indore?",
+        "Names of all the Resorts in Indore?",
+        "What are the famous Resorts in Indore?",
+        "List of all the Resorts in Indore?",
+        "List of some of the best resorts in Indore?"
+      ],
+      "responses": [
+        "There are lot of good resorts to visit with your family and friends in Indore. Some of them are 01 Simcha Island Resort 02 LCH Fitness Resort 03 The Red Maple Mashal Resort 04 Dino Adventure Park and Resort 05 Chokhi Dhani Indore"
+      ]
+    },
+    {
+      "tag": "SimchaIsland_about",
+      "patterns": [
+        "Simcha Island Resort in Indore",
+        "About Simcha Island Resort in Indore",
+        "Tell me something about Simcha Island Resort in Indore",
+        "What is Simcha Island Resort in Indore?",
+        "Description of Simcha Island Resort in Indore"
+      ],
+      "responses": [
+        "Boasting a restaurant, garden and views of lake, Simcha Island is set in Indore, 14 km from Rajwada Palace. Featuring family rooms, this property also provides guests with a children's playground. The accommodation offers a 24-hour front desk, room service and luggage storage for guests.At the resort all rooms include air conditioning, a seating area, a flat-screen TV with satellite channels, a safety deposit box and a private bathroom with a shower, slippers and free toiletries. At Simcha Island all rooms come with bed linen and towels.The accommodation offers a à la carte or vegetarian breakfast.Simcha Island offers a terrace. The area is popular for cycling, and car hire is available at the resort."
+      ]
+    },
+    {
+      "tag": "SimchaIsland",
+      "patterns": [
+        "where is Simcha Island Resort in Indore?",
+        "how can I reach Simcha Island Resort in Indore?",
+        "Address of Simcha Island Resort in Indore?",
+        "Location of Simcha Island Resort in Indore?",
+        "how to reach Simcha Island Resort in Indore?"
+      ],
+      "responses": [
+        "Address of Simcha Island Resort: Ahead of Sonway Toll Plaza AB Road, Rau, 453331 Indore"
+      ]
+    },
+    {
+      "tag": "LCHFitness_about",
+      "patterns": [
+        "LCH Fitness Resort in Indore",
+        "About LCH Fitness Resort in Indore",
+        "Tell me something about LCH Fitness Resort in Indore",
+        "What is LCH Fitness Resort in Indore?",
+        "Description of LCH Fitness Resort in Indore"
+      ],
+      "responses": [
+        "Set in Indore, 7 km from ISKCON Indore, LCH Fitness offers accommodation with a restaurant, free private parking, an outdoor swimming pool and a fitness centre. Offering a garden, the property is located within 9 km of Rajwada Palace. The accommodation features a 24-hour front desk and room service for guests.All guest rooms come with air conditioning, a flat-screen TV with satellite channels, a fridge, a kettle, a shower, bathrobes and a desk. The rooms feature a private bathroom, free toiletries and bed linen.The resort offers a à la carte or vegetarian breakfast.LCH Fitness offers a children's playground.The nearest airport is Devi Ahilya Bai Holkar, 10 km from the accommodation, and the property offers a paid airport shuttle service."
+      ]
+    },
+    {
+      "tag": "LCHFitness",
+      "patterns": [
+        "where is LCH Fitness Resort in Indore?",
+        "how can I reach LCH Fitness Resort in Indore?",
+        "Address of LCH Fitness Resort in Indore?",
+        "Location of LCH Fitness Resort in Indore?",
+        "how to reach LCH Fitness Resort in Indore?"
+      ],
+      "responses": [
+        "Address of LCH Fitness Resort: 2 ,Scheme No 78, Part 2, Vijay Nagar Life Care Hospital Parisar, 452010 Indore"
+      ]
+    },
+    {
+      "tag": "TheRedMapleMashal_about",
+      "patterns": [
+        "The Red Maple Mashal Resort in Indore",
+        "About The Red Maple Mashal Resort in Indore",
+        "Tell me something about The Red Maple Mashal Resort in Indore",
+        "What is The Red Maple Mashal Resort in Indore?",
+        "Description of The Red Maple Mashal Resort in Indore"
+      ],
+      "responses": [
+        "Located just 3.1 km from the Rau Railway Station, The Red Maple Mashal offers the facilities and benefits of a fitness centre, outdoor swimming pool and games room. Free WFi access is available in hotel rooms.The rooms feature a tea/coffee maker and safety deposit box. The attached bathrooms come with free toiletries, a hair dryer and shower.The guests can approach the tour desk for the currency exchange, ticket and car rental services. The property offers luggage storage and valet parking. The dry cleaning, ironing service and laundry facilities are available at a surcharge.The in-house multi-cuisine restaurant serves Indian, Chinese and continental dishes. The guests can enjoy refreshing alcoholic and non-alcoholic beverages at the bar. Packed lunches can be requested. Room service is available."
+      ]
+    },
+    {
+      "tag": "TheRedMapleMashalResort",
+      "patterns": [
+        "where is The Red Maple Mashal Resort in Indore?",
+        "how can I reach The Red Maple Mashal Resort in Indore?",
+        "Address of The Red Maple Mashal Resort in Indore?",
+        "Location of The Red Maple Mashal Resort in Indore?",
+        "how to reach The Red Maple Mashal Resort in Indore?"
+      ],
+      "responses": [
+        "Address of The Red Maple Mashal Resort: Jhoomer Jhat, Rasalpura, Rau, 453446 Indore"
+      ]
+    },
+    {
+      "tag": "DinoAdventureParkandResort_about",
+      "patterns": [
+        "Dino Adventure Park and Resort in Indore",
+        "About Dino Adventure Park and Resort in Indore",
+        "Tell me something about Dino Adventure Park and Resort in Indore",
+        "What is Dino Adventure Park and Resort in Indore?",
+        "Description of Dino Adventure Park and Resort in Indore"
+      ],
+      "responses": [
+        "Dino Adventure Park and Resort in Indore provides adults-only accommodation with a restaurant, a shared lounge and a garden. Boasting a concierge service, this property also provides guests with a children's playground. The accommodation offers a 24-hour front desk, room service and currency exchange for guests.All guest rooms at the resort come with a seating area, a flat-screen TV with cable channels and a private bathroom with free toiletries and a shower. At Dino Adventure Park and Resort the rooms are equipped with bed linen and towels.Continental and buffet breakfast options are available every morning at the accommodation."
+      ]
+    },
+    {
+      "tag": "DinoAdventureParkandResort",
+      "patterns": [
+        "where is Dino Adventure Park and Resort in Indore?",
+        "how can I reach Dino Adventure Park and Resort in Indore?",
+        "Address of Dino Adventure Park and Resort in Indore?",
+        "Location of Dino Adventure Park and Resort in Indore?",
+        "how to reach Dino Adventure Park and Resort in Indore?"
+      ],
+      "responses": [
+        "Address of Dino Adventure Park and Resort : KHASRA NO. 291/2, SURLIBARDI P. H. NO.77, MAIN ROAD INDORE, MANDAV, 454010 Indore"
+      ]
+    },
+    {
+      "tag": "ChokhiDhaniIndore_about",
+      "patterns": [
+        "Chokhi Dhani Indore",
+        "About Chokhi Dhani Indore",
+        "Tell me something about Chokhi Dhani Indore",
+        "What is Chokhi Dhani Indore?",
+        "Description of Chokhi Dhani Indore"
+      ],
+      "responses": [
+        "14 kms from Bhopal, Kerwa is a leisure resort nestled at the edge of Kerwa dam. The view from the window is Kerwa’s USP – it being a panoramic view of the hills and a beautiful reservoir. Kerwa is a perfect weekend retreat for city dwellers, an ideal spot for school picnics, group lunches and team dinners. Nature lovers get to enjoy bird watching and adventure junkies get the only zip lining experience in Madhya Pradesh - here at Kerwa."
+      ]
+    },
+    {
+      "tag": "ChokhiDhaniIndore",
+      "patterns": [
+        "where is Chokhi Dhani Indore?",
+        "how can I reach Chokhi Dhani Indore?",
+        "Address of Chokhi Dhani Indore?",
+        "Location of MPT Kerwa Resort, Bhopal?",
+        "how to reach MPT Kerwa Resort, Bhopal?"
+      ],
+      "responses": [
+        "Address of MPT Kerwa Resort, Bhopal: Off Kotra Sultanabad Near Kerwa Dam, Bhopal 462007"
+      ]
+    },
+
+    {
+      "tag": "Malls_in",
+      "patterns": [
+        "How many malls are there in Indore?",
+        "which malls can i visite in Indore",
+        "Which are some good malls in Indore?",
+        "where can i can go for shopping in Indore?"
+      ],
+      "responses": [
+        "These are some famous malls in Indore 01 C21 mall 02 Treasure island mall 03 Malhar mega mall 04 Mangal city mall 05 Central"
+      ]
+    },
+    {
+      "tag": "C21Mall",
+      "patterns": [
+        "Location of C21 mall",
+        "Location of C21 mall",
+        "How to reach C21 mall?",
+        "Where is C21 mall?",
+        "How can I reach to C21 mall?"
+      ],
+      "responses": ["263, Orbit Mall, AB Rd, Indore, Madhya Pradesh 452010"]
+    },
+    {
+      "tag": "Timall",
+      "patterns": [
+        "Location of Treasure island malll",
+        "Location of Treasure island mall",
+        "How to reach Treasure island mall?",
+        "Where is Treasure island mall?",
+        "How can I reach to Treasure island mall?"
+      ],
+      "responses": [
+        "1, Mahatma Gandhi Rd, Near Presure Sland, Near TI Mall, South Tukoganj, Indore, Madhya Pradesh 452001"
+      ]
+    },
+    {
+      "tag": "malharmall",
+      "patterns": [
+        "Location of Malhar mega mall",
+        "Location of Malhar mega mall",
+        "How to reach Malhar mega mall?",
+        "Where is Malhar mega mall?",
+        "How can I reach to Malhar mega mall?"
+      ],
+      "responses": [
+        "299A PO, Scheme No.54, Vijay Nagar, Indore, Madhya Pradesh 452010"
+      ]
+    },
+    {
+      "tag": "centralmall",
+      "patterns": [
+        "Location of Central mall",
+        "Location of Central mall",
+        "How to reach Central mall?",
+        "Where is Central mall?",
+        "How can I reach to Central mall?"
+      ],
+      "responses": [
+        "Treasure Island Next Mall Regal Circle, RNT Marg, Indore, Madhya Pradesh 452007"
+      ]
+    },
+
+    {
+      "tag": "damsnlakes_in",
+      "patterns": [
+        "what are the places to hangout near water in indore?",
+        "what are places to have an asthetic view from water in indore?",
+        "where can I watch sunset amd sunrise in indore? "
+      ],
+      "responses": [
+        "There are few dams and lakes in indore. Some of them are LAKES-> 01 Pipliyapala lake 02 Bilawali lake 03 Small Sirpur lake 04 Khajrana Lake DAMS-> 01 Nakheri Dam 02 Choral Dam Reservoir 03 Check Dam "
+      ]
+    },
+    {
+      "tag": "lakes_in",
+      "patterns": [
+        "how many lakes are there in indore?",
+        "Names of all the lakes in indore?",
+        "What are the famous lakes in indore?",
+        "List of all the lakes in indore?"
+      ],
+      "responses": [
+        "There are mainly 4 lakes in indore - 01 Pipliyapala Lake 02 Bilawali Lake 03 Small Sirpur Lake 04 Khajrana Lake"
+      ]
+    },
+    {
+      "tag": "pipliyapala_about",
+      "patterns": [
+        "Pipliyapala Lake in indore",
+        "About Pipliyapala Lake in indore",
+        "Tell me something about Pipliyapala Lake in indore",
+        "What is Pipliyapala Lake in indore?",
+        "Description of Pipliyapala Lake in indore "
+      ],
+      "responses": [
+        "The very attractive and beautiful park - the Atal Bihari Vajpayee Regional Park - also known as Pipliyapala Park or Indore Regional Park, has been developed by the Indore Development Authority (IDA) !! There is also a canal, which covers the whole park starting from one point of the pond and ending at the other part ! The bridges over the canal with the mist fountain make one feel a special type of peace, mentally as well as physically !!"
+      ]
+    },
+    {
+      "tag": "pipliyapala_address",
+      "patterns": [
+        "where is Pipliyapala lake in indore?",
+        "how can I reach Pipliyapala lake in indore?",
+        "Address of Pipliyapala lake in indore?",
+        "Location of Pipliyapala lake in indore?",
+        "how to reach Pipliyapala lake in indore?"
+      ],
+      "responses": [
+        " Pipliyapala Lake, Near Choithram Hospital crossing, A. B. Road, Indore, India, MP, India - 452001   "
+      ]
+    },
+    {
+      "tag": "bilawali_about",
+      "patterns": [
+        "Bilawali Lake in indore",
+        "About Bilawali Lake in indore",
+        "Tell me something about Bilawali Lake in indore",
+        "What is Bilawali Lake in indore?",
+        "Description of Bilawali Lake in indore "
+      ],
+      "responses": [
+        "Bilawali Lake Indore is one of the most beautiful lakes near Indore. It's an ideal mix of Birds and natural beauty. You can go with your family and buddies and can see the magic of nature and birds chirping."
+      ]
+    },
+    {
+      "tag": "bilawani_address",
+      "patterns": [
+        "where is Bilawali lake in indore?",
+        "how can I reach Bilawali lake in indore?",
+        "Address of Bilawali lake in indore?",
+        "Location of Bilawali lake in indore?",
+        "how to reach Bilawali lake in indore?"
+      ],
+      "responses": [
+        " 20, Khandwa Rd, Rani Bagh Main, Indore, Madhya Pradesh 452020, India"
+      ]
+    },
+    {
+      "tag": "sslake_about",
+      "patterns": [
+        "Small Sirpur Lake in indore",
+        "About Small Sirpur Lake in indore",
+        "Tell me something about Small Sirpur Lake in indore",
+        "What is Small Sirpur Lake in indore?",
+        "Description of Small Sirpur Lake in indore "
+      ],
+      "responses": [
+        "One of the largest lakes in Indore, Sirpur Lake is a huge man-made lake which dates back to the early 20th century. It was created by the Holkar royal family of Indore."
+      ]
+    },
+    {
+      "tag": "sslake_address",
+      "patterns": [
+        "where is Small Sirpur lake in indore?",
+        "how can I reach Small Sirpur lake in indore?",
+        "Address of Small Sirpur lake in indore?",
+        "Location of Small Sirpur lake in indore?",
+        "how to reach Small Sirpur lake in indore?"
+      ],
+      "responses": [" PR36+3RX, Sirpur, Indore, Madhya Pradesh 452013"]
+    },
+    {
+      "tag": "khajranalake_about",
+      "patterns": [
+        "Khajrana Lake in indore",
+        "About Khajrana Lake in indore",
+        "Tell me something about Khajrana Lake in indore",
+        "What is Khajrana Lake in indore?",
+        "Description of Khajrana Lake in indore "
+      ],
+      "responses": [
+        "Khajrana pond was excavated by the Holkar dynasty for the people here. The second pond of Khajran is right in front of the big madrasa. "
+      ]
+    },
+    {
+      "tag": "khajranalake_address",
+      "patterns": [
+        "where is Khajrana lake in indore?",
+        "how can I reach Khajrana lake in indore?",
+        "Address of Khajrana lake in indore?",
+        "Location of Khajrana lake in indore?",
+        "how to reach Khajrana lake in indore?"
+      ],
+      "responses": [" Patel Mohalla, Khajrana, Indore, Madhya Pradesh 452016"]
+    },
+    {
+      "tag": "dams_in",
+      "patterns": [
+        "how many Dams are there in indore?",
+        "Names of all the Dams in indore?",
+        "What are the famous Dams in indore?",
+        "List of all the Dams in indore?"
+      ],
+      "responses": [
+        "There are mainly 3 dams in indore - 01 Nakheri Dam 02 Choral Dam Reservoir 03 Check Dam"
+      ]
+    },
+    {
+      "tag": "NakheriDam",
+      "patterns": [
+        "where is Nakheri dam in indore?",
+        "how can I reach Nakheri dam in indore?",
+        "Address of Nakheri dam in indore?",
+        "Location of Nakheri dam in indore?",
+        "how to reach Nakheri dam in indore?"
+      ],
+      "responses": [
+        "The address of Nakheri Dam is - FP7X+J95, Jhikadiya Khedi, Madhya Pradesh 453441"
+      ]
+    },
+    {
+      "tag": "choraldam",
+      "patterns": [
+        "where is Choral Dam Reservoir in indore?",
+        "how can I reach Choral Dam Reservoir in indore?",
+        "Address of Choral Dam Reservoir in indore?",
+        "Location of Choral Dam Reservoir in indore?",
+        "how to reach Choral Dam Reservoir in indore?"
+      ],
+      "responses": [
+        "The address of Choral Dam Reservoir is - Rampuriya, Madhya Pradesh 453441"
+      ]
+    },
+    {
+      "tag": "CheckDam",
+      "patterns": [
+        "where is Check dam in indore?",
+        "how can I reach Check dam in indore?",
+        "Address of Check dam in indore?",
+        "Location of Check dam in indore?",
+        "how to reach Check dam in indore?"
+      ],
+      "responses": [
+        "The address of Check Dam is - HQ92+PQ5, Dr. Ambedkar Nagar, Madhya Pradesh 453441"
+      ]
+    },
+
+    {
+      "tag": "market_in",
+      "patterns": [
+        "what are the places to shop in indore?",
+        "what are the market places to visit in the indore?",
+        "what are good local markets in indore?",
+        "where to buy local stuffs in bhopal? "
+      ],
+      "responses": [
+        "There are 6 best palces to do shopping in Bhopal 01 A69 Shopping plaza 02 Rajwada  03 MT cloth market 04 Moolchand market "
+      ]
+    },
+    {
+      "tag": "a69shoppingplaza",
+      "patterns": [
+        "where is A69 Shopping plaza in indore?",
+        "how can I reach A69 Shopping plaza in indore?",
+        "Address of A69 Shopping plaza in indore?",
+        "Location of A69 Shopping plaza in indore?",
+        "how to reach A69 Shopping plaza in indore?"
+      ],
+      "responses": [
+        "The address of A69 Shopping plaza is -A69 Shoping plaza, near Tower Square, Indore, Madhya Pradesh"
+      ]
+    },
+    {
+      "tag": "Rajwada",
+      "patterns": [
+        "where is Rajwada in indore?",
+        "how can I reach Rajwada in indore?",
+        "Address of Rajwada in indore?",
+        "Location of Rajwada in indore?",
+        "how to reach Rajwada in indore?"
+      ],
+      "responses": [
+        "The address of Rajwada is - Rajwada, Indore, Madhya Pradesh 452002"
+      ]
+    },
+    {
+      "tag": "NakheriDam",
+      "patterns": [
+        "where is MT cloth market in indore?",
+        "how can I reach MT cloth market in indore?",
+        "Address of MT cloth marketin indore?",
+        "Location of MT cloth market in indore?",
+        "how to reach MT cloth market in indore?"
+      ],
+      "responses": [
+        "The address of MT cloth market is - Cloth Market, 198, Yashwant Ganj, M.T Cloth Market, Maharaja Tukoji Rao Holker Cloth Market, Indore, Madhya Pradesh 452002"
+      ]
+    },
+    {
+      "tag": "NakheriDam",
+      "patterns": [
+        "where is Moolchand market in indore?",
+        "how can I reach Moolchand market in indore?",
+        "Address of Moolchand market in indore?",
+        "Location of Moolchand market in indore?",
+        "how to reach Moolchand market in indore?"
+      ],
+      "responses": [
+        "The address of Moolchand market is - 626, Mahatma Gandhi Rd, Khajuri Bazar, Indore, Madhya Pradesh 452002"
+      ]
+    },
+
+    {
+      "tag": "Parks_in",
+      "patterns": [
+        "how many parks are there in indore?",
+        "Names of all the parks in indore?",
+        "What are the famous parks in indore?",
+        "List of all the parks in indore?"
+      ],
+      "responses": [
+        "There are lot of good parks to visit with your family and friends in indore. Some of them are 01 Lalbagh Garden 02 Meghdoot Garden 03 Regional Park Indore 04 Safari Activity Park"
+      ]
+    },
+    {
+      "tag": "LalbaghGarden_about",
+      "patterns": [
+        "Lalbagh Garden in indore",
+        "About Lalbagh Garden in indore",
+        "Tell me something about Lalbagh Garden in indore",
+        "What is Lalbagh Garden in indore?",
+        "Description of Lalbagh Garden in indore"
+      ],
+      "responses": [
+        "The Lal Bagh in Indore, one of the best neoclassical palaces in India.Sprawling garden outside Lal Bagh Palace offering walking paths amid European-style landscaping."
+      ]
+    },
+    {
+      "tag": "LalbaghGarden_address",
+      "patterns": [
+        "where is Lalbagh Garden in indore?",
+        "how can I reach Lalbagh Garden in indore?",
+        "Address of Lalbagh Garden in indore?",
+        "Location of Lalbagh Garden in indore?",
+        "how to reach Lalbagh Garden in indore?"
+      ],
+      "responses": [
+        "The address of Lalbagh Garden is - Lal Bagh Rd, Triveni Colony, Indore, Madhya Pradesh 452007"
+      ]
+    },
+    {
+      "tag": "MeghdootGarden_address",
+      "patterns": [
+        "where is Meghdoot Garden in indore?",
+        "how can I reach Meghdoot Garden in indore?",
+        "Address of Meghdoot Garden in indore?",
+        "Location of Meghdoot Garden in indore?",
+        "how to reach Meghdoot Garden in indore?"
+      ],
+      "responses": [
+        "The address of Meghdoot Garden is - Main Gate, Entrance, Maguda Nagar, Scheme No 54, Indore, Madhya Pradesh 452011"
+      ]
+    },
+    {
+      "tag": "LalbaghGarden_address",
+      "patterns": [
+        "where is Lalbagh Garden in indore?",
+        "how can I reach Lalbagh Garden in indore?",
+        "Address of Lalbagh Garden in indore?",
+        "Location of Lalbagh Garden in indore?",
+        "how to reach Lalbagh Garden in indore?"
+      ],
+      "responses": [
+        "The address of Moolchand market is - Lal Bagh Rd, Triveni Colony, Indore, Madhya Pradesh 452007"
+      ]
+    },
+
+    {
+      "tag": "cafes_Indore",
+      "patterns": [
+        "Famous Cafes in Indore?",
+        "Names of all the Cafes in Indore?",
+        "What are the famous Cafes in Indore?",
+        "List of all the Cafes in Indore?",
+        "List of some of the best Cafes in Indore?"
+      ],
+      "responses": [
+        "There are lot of famous Cafes to enjoy your meal with your family and friends in Indore. Some of the best places are 01 Farzi Cafe 02 Cafe Terazza 03 Cafe Palette, Indore  04 Cafe Chapter One 05 O2 Cafe De La Ville "
+      ]
+    },
+    {
+      "tag": "FarziCafe",
+      "patterns": [
+        "where is Farzi Cafe in Indore?",
+        "how can I reach Farzi Cafe in Indore?",
+        "Address of Farzi Cafe in Indore?",
+        "Location of Farzi Cafe in Indore?",
+        "how to reach Farzi Cafe in Indore?"
+      ],
+      "responses": [
+        "Address of Farzi Cafe : Apollo premier building, Vijay Nagar Square, near sajan prabha, Indore, Madhya Pradesh 452010"
+      ]
+    },
+    {
+      "tag": "CafeTerazza",
+      "patterns": [
+        "where is Cafe Terazza in Indore?",
+        "how can I reach Cafe Terazza in Indore?",
+        "Address of Cafe Terazza in Indore?",
+        "Location of Cafe Terazza in Indore?",
+        "how to reach Cafe Terazza in Indore?"
+      ],
+      "responses": [
+        "Address of CCafe Terazza :  10th Floor, Airen Heights AB Rd Opp c21 mall, Indore, Madhya Pradesh 452001"
+      ]
+    },
+    {
+      "tag": "CafePalette",
+      "patterns": [
+        "where is Cafe Palette, Indore in Indore?",
+        "how can I reach Cafe Palette, Indore in Indore?",
+        "Address of Cafe Palette, Indore in Indore?",
+        "Location of Cafe Palette, Indore in Indore?",
+        "how to reach Cafe Palette, Indore in Indore?"
+      ],
+      "responses": [
+        "Address of Cafe Palette, Indore : Cafe Palette, 136, Saket Nagar, Indore, Madhya Pradesh 452001"
+      ]
+    },
+    {
+      "tag": "CafeChapterOne",
+      "patterns": [
+        "where is Cafe Chapter One in Indore?",
+        "how can I reach Cafe Chapter One in Indore?",
+        "Address of Cafe Chapter One in Indore?",
+        "Location of Cafe Chapter One in Indore?",
+        "how to reach Cafe Chapter One in Indore?"
+      ],
+      "responses": [
+        "Address of Cafe Chapter One : WB -86, Ring Rd Scheme No 94 Sector EB, west, Vijay Nagar, Indore, Madhya Pradesh 452010"
+      ]
+    },
+    {
+      "tag": "O2CafeDeLaVille",
+      "patterns": [
+        "where is O2 Cafe De La Ville in Indore?",
+        "how can I reach O2 Cafe De La Ville in Indore?",
+        "Address of O2 Cafe De La Ville in Indore?",
+        "Location ofO2 Cafe De La Ville in Indore?",
+        "how to reach O2 Cafe De La Ville in Indore?"
+      ],
+      "responses": [
+        "Address of O2 Cafe De La Ville : 23/2C, Lala Banarasilal Dawar Marg, New Palasia, Indore, Madhya Pradesh 452001"
+      ]
+    },
+
+    {
+      "tag": "Hotels_Indore",
+      "patterns": [
+        "Famous Hotels in Indore?",
+        "Names of all the Hotels in Indore?",
+        "What are the famous Hotels in Indore?",
+        "List of all the Hotels in Indore?",
+        "List of some of the best hotels in Indore?"
+      ],
+      "responses": [
+        "There are lot of good hotels to visit with your family and friends in Indore. Some of them are 01 Sayaji Hotel Indore 02 Radisson Blu Hotel Indore 03 Indore Marriott Hotel 04 Effotel by Sayaji Indore 05 Hotel Daksh Residency"
+      ]
+    },
+    {
+      "tag": "SayajiHotelIndore",
+      "patterns": [
+        "where is Sayaji Hotel Indore?",
+        "how can I reach Sayaji Hotel Indore?",
+        "Address of Sayaji Hotel Indore?",
+        "Location of Sayaji Hotel Indore?",
+        "how to reach Sayaji Hotel Indore?"
+      ],
+      "responses": [
+        "Address of Sayaji Hotel Indore: H/1 , Scheme No.54, Vijay Nagar, Indore, Madhya Pradesh 452010"
+      ]
+    },
+    {
+      "tag": "RadissonBluHotelIndore",
+      "patterns": [
+        "where is Radisson Blu Hotel Indore?",
+        "how can I reach Sayaji Hotel in Indore?",
+        "Address of Sayaji Hotel in Indore?",
+        "Location of Sayaji Hotel in Indore?",
+        "how to reach Sayaji Hotel in Indore?"
+      ],
+      "responses": [
+        "Address of Hotek Sayaji: 12, Ring Rd, Scheme No 171, Indore, Madhya Pradesh 452010"
+      ]
+    },
+    {
+      "tag": "IndoreMarriottHotel",
+      "patterns": [
+        "where is Indore Marriott Hotel?",
+        "how can I reach Indore Marriott Hotel?",
+        "Address of Indore Marriott Hotel?",
+        "Location of Indore Marriott Hotel?",
+        "how to reach Indore Marriott Hotel?"
+      ],
+      "responses": [
+        "Address of Indore Marriott Hotel: H-2, Scheme No 54 Meghdoot Garden, Vijay Nagar, Indore"
+      ]
+    },
+    {
+      "tag": "EffotelbySayajiIndore",
+      "patterns": [
+        "where is Effotel by Sayaji Indore?",
+        "how can I reach Effotel by Sayaji Indore?",
+        "Address of Effotel by Sayaji Indore?",
+        "Location of Effotel by Sayaji Indore?",
+        "how to reach Effotel by Sayaji Indore?"
+      ],
+      "responses": [
+        "Address of Effotel by Sayaji Indore: Plot No. 10, C/ C.A, Scheme No:94, Sec C, Scheme 94 Sector CA, Indore, Madhya Pradesh 452010"
+      ]
+    },
+    {
+      "tag": "HotelDakshResidency",
+      "patterns": [
+        "where is Hotel Daksh Residency in Indore?",
+        "how can I reach Hotel Daksh Residency in Indore?",
+        "Address of Hotel Daksh Residency in Indore?",
+        "Location of Hotel Daksh Residency in Indore?",
+        "how to reach Hotel Daksh Residency in Indore?"
+      ],
+      "responses": [
+        "Address of Hotel Daksh Residency: 16/GF, Scheme No. 54, Opposite Meghdoot Garden, Vijay Nagar, Indore, Madhya Pradesh 452001"
+      ]
+    },
+
+    {
+      "tag": "food_in",
+      "patterns": [
+        "what are the places to have food in Indore?",
+        "Names of all the places to eat in Indore?",
+        "What are the good places to eat in Indore?",
+        "List of all the food places in Indore?"
+      ],
+      "responses": [
+        "There are lot of good places to have food with your family and friends in Indore. Some of them are 01 Restaurants 02 Cafe 03 Street Food 04 Different types of Cuisines"
+      ]
+    },
+
+    {
+      "tag": "Restaurants_in",
+      "patterns": [
+        "Famous Restaurants in Indore?",
+        "Names of all the Restaurants in Indore?",
+        "What are the famous Restaurants in Indore?",
+        "List of all the Restaurants in bhopal?",
+        "List of some of the best Restaurants in Indore?"
+      ],
+      "responses": [
+        "There are lot of famous restaurants to enjoy your meal with your family and friends in Indore. Some of the best places are 01 Vrindavan 02 Shri Gurukripa 03 Chokhi Dhani 04 Indore Kitchen 05 Little Monk "
+      ]
+    },
+    {
+      "tag": "VrindavanIndore",
+      "patterns": [
+        "where is Vrindavan Indore?",
+        "how can I reach Vrindavan Indore?",
+        "Address of Vrindavan Indore?",
+        "Location of Vrindavan Indore?",
+        "how to reach Vrindavan Indore?"
+      ],
+      "responses": [
+        "Address of Vrindavan Indore:  Plot No. 65, Scheme 78, Opposite Prestige Institute, Madhya Pradesh 452001"
+      ]
+    },
+    {
+      "tag": "ChokhiDhaniIndore",
+      "patterns": [
+        "where is Chokhi Dhani Indore?",
+        "how can I reach Chokhi Dhani Indore?",
+        "Address of Chokhi Dhani Indore?",
+        "Location of Chokhi Dhani Indore?",
+        "how to reach Chokhi Dhani Indore?"
+      ],
+      "responses": [
+        "Address of Chokhi Dhani Indore: 9 Mile, Fata Khandwa Road, Datoda, Indore, Madhya Pradesh 452020"
+      ]
+    },
+    {
+      "tag": "IndoreKitchenIndore",
+      "patterns": [
+        "where is Indore Kitchen Indore?",
+        "how can I reach Indore Kitchen Indore?",
+        "Address of Indore Kitchen Indore?",
+        "Location of Indore Kitchen Indore?",
+        "how to reach Indore Kitchen Indore?"
+      ],
+      "responses": [
+        "Address of Indore Kitchen Indore: H-2, Scheme No 54, Meghdoot Garden, Vijay Nagar, Indore, Madhya Pradesh 452010"
+      ]
+    },
+    {
+      "tag": "LittleMonkIndore",
+      "patterns": [
+        "where is Little Monk Indore?",
+        "how can I reach Little Monk Indore?",
+        "Address of Little Monk Indore?",
+        "Location of Little Monk Indore?",
+        "how to reach Little Monk Indore?"
+      ],
+      "responses": [
+        "Address of Little Monk Indore: Nirvana Hotel & Resort, MR 10, Near Over Bridge, Super Corridor Rd, Indore, Madhya Pradesh 453555"
+      ]
+    },
+    {
+      "tag": "ShriGurukripaIndore",
+      "patterns": [
+        "where is Shri Gurukripa Indore?",
+        "how can I reach Shri Gurukripa Indore?",
+        "Address of Shri Gurukripa Indore?",
+        "Location of Shri Gurukripa Indore?",
+        "how to reach Shri Gurukripa Indore?"
+      ],
+      "responses": [
+        "Address of Shri Gurukripa Indore: Scheme No 54, behind Bombay Hospital, Vijay Nagar, Indore, Madhya Pradesh 452010"
+      ]
+    },
+
+    {
+      "tag": "streetfood_in",
+      "patterns": [
+        "Famous places to have local street food in Indore?",
+        "Names of all the local places to eat street food in Indore?",
+        "What are the famous Street food places in Indorel?",
+        "List of all the places we can get street food in Indore?",
+        "List of some of the best street food in Indore?"
+      ],
+      "responses": [
+        "There are lot of famous places to enjoy local street food with your family and friends in Indore. Some of the best places are 01 Sarfa 02 56 Dukan "
+      ]
+    },
+    {
+      "tag": "SarfaIndore",
+      "patterns": [
+        "where is Sarfa Indore?",
+        "how can I reach Sarfa Indore?",
+        "Address of Sarfa Indore?",
+        "Location of Sarfa Indore?",
+        "how to reach Sarfa Indore?"
+      ],
+      "responses": [
+        "Address of Sarfa Night Food Market Indore:  Yashoda Mata Mandir Rd, Bada Sarafa, Maharaja Tukoji Rao Holker Cloth Market, Indore, Madhya Pradesh 452002"
+      ]
+    },
+    {
+      "tag": "56DukanIndore",
+      "patterns": [
+        "where is 56 Dukan Indore?",
+        "how can I reach 56 DukanIndore?",
+        "Address of 56 Dukan Indore?",
+        "Location of 56 Dukan Indore?",
+        "how to reach 56 Dukan Indore?"
+      ],
+      "responses": [
+        "Address of 56 Dukan also called as Palasia in Indore:  Mahatma Gandhi Road, New Palasia, New Palasia, Indore, Madhya Pradesh 452001"
+      ]
+    }
+  ]
+}
